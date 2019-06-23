@@ -1,0 +1,68 @@
+.abbrev {
+    color: red;
+    font-weight: bold;
+}
+#tooltip {
+  text-align: center;
+  color: #fff;
+  background: #333;
+  position: absolute;
+  z-index: 10000;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: 100ms ease;
+  -moz-transition: 100ms ease;
+  -o-transition: 100ms ease;
+  -ms-transition: 100ms ease;
+  transition: 100ms ease;
+}
+
+#tooltip:after /* triangle decoration */ {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333;
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -10px;
+}
+
+#tooltip.top:after {
+  border-top-color: transparent;
+  border-bottom: 10px solid #111;
+  top: -20px;
+  bottom: auto;
+}
+
+#tooltip.left:after {
+  left: 10px;
+  margin: 0;
+}
+
+#tooltip.right:after {
+  right: 10px;
+  left: auto;
+  margin: 0;
+}
+/*
+.abbrev .abbrevtext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+ /* position: absolute;
+  z-index: 1;
+}*/
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.abbrev:hover .abbrevtext {
+  visibility: visible;
+}

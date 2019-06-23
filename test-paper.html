@@ -1,0 +1,1872 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article"
+      class="no-js">
+
+
+
+<head prefix="og: http://ogp.me/ns#">
+    <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors</title>
+
+
+<link rel="stylesheet" href="https://journals.plos.org/plosone/resource/compiled/asset_DGQ6YYL26P3FNOQFYM3ZEASHBC46CKTH.css" />
+
+  <!-- allows for  extra head tags -->
+
+
+<!-- hello -->
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600">
+
+<link media="print" rel="stylesheet" type="text/css"  href="/plosone/resource/css/print.css"/>
+    <script type="text/javascript">
+        var siteUrlPrefix = "/plosone/";
+    </script>
+<script src="/plosone/resource/compiled/asset_SC5JIUGEUPR4P4P6VBUINUVOVUSU3NRY.js"></script>
+
+  <link rel="shortcut icon" href="/plosone/resource/img/favicon.ico" type="image/x-icon"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+  <link rel="canonical" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056336" />
+  <meta name="description" content="GPCR desensitization and down-regulation are considered key molecular events underlying the development of tolerance in vivo. Among the many regulatory proteins that are involved in these complex processes, GASP-1 have been shown to participate to the sorting of several receptors toward the degradation pathway. This protein belongs to the recently identified GPCR-associated sorting proteins (GASPs) family that comprises ten members for which structural and functional details are poorly documented. We present here a detailed structure&ndash;function relationship analysis of the molecular interaction between GASPs and a panel of GPCRs. In a first step, GST-pull down experiments revealed that all the tested GASPs display significant interactions with a wide range of GPCRs. Importantly, the different GASP members exhibiting the strongest interaction properties were also characterized by the presence of a small, highly conserved and repeated &ldquo;GASP motif&rdquo; of 15 amino acids. We further showed using GST-pull down, surface plasmon resonance and co-immunoprecipitation experiments that the central domain of GASP-1, which contains 22 GASP motifs, is essential for the interaction with GPCRs. We then used site directed mutagenesis and competition experiments with synthetic peptides to demonstrate that the GASP motif, and particularly its highly conserved core sequence SWFW, is critically involved in the interaction with GPCRs. Overall, our data show that several members of the GASP family interact with GPCRs and highlight the presence within GASPs of a novel protein-protein interaction motif that might represent a new target to investigate the involvement of GASPs in the modulation of the activity of GPCRs." />
+
+  <meta name="citation_abstract" content="GPCR desensitization and down-regulation are considered key molecular events underlying the development of tolerance in vivo. Among the many regulatory proteins that are involved in these complex processes, GASP-1 have been shown to participate to the sorting of several receptors toward the degradation pathway. This protein belongs to the recently identified GPCR-associated sorting proteins (GASPs) family that comprises ten members for which structural and functional details are poorly documented. We present here a detailed structure&ndash;function relationship analysis of the molecular interaction between GASPs and a panel of GPCRs. In a first step, GST-pull down experiments revealed that all the tested GASPs display significant interactions with a wide range of GPCRs. Importantly, the different GASP members exhibiting the strongest interaction properties were also characterized by the presence of a small, highly conserved and repeated &ldquo;GASP motif&rdquo; of 15 amino acids. We further showed using GST-pull down, surface plasmon resonance and co-immunoprecipitation experiments that the central domain of GASP-1, which contains 22 GASP motifs, is essential for the interaction with GPCRs. We then used site directed mutagenesis and competition experiments with synthetic peptides to demonstrate that the GASP motif, and particularly its highly conserved core sequence SWFW, is critically involved in the interaction with GPCRs. Overall, our data show that several members of the GASP family interact with GPCRs and highlight the presence within GASPs of a novel protein-protein interaction motif that might represent a new target to investigate the involvement of GASPs in the modulation of the activity of GPCRs.">
+
+
+  <meta name="keywords" content="G protein coupled receptors,Sequence motif analysis,Muscarinic acetylcholine receptors,Protein interactions,Health care,Chemical dissociation,Amperometry,Synthetic peptides" />
+
+
+<meta name="citation_doi" content="10.1371/journal.pone.0056336"/>
+<meta name="citation_author" content="Olivier Bornert"/>
+  <meta name="citation_author_institution" content="Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France"/>
+  <meta name="citation_author_institution" content="BioXtal, Saint Félix, France"/>
+<meta name="citation_author" content="Thor C. Møller"/>
+  <meta name="citation_author_institution" content="Bio-Nanotechnology and Nanomedicine Laboratory, Department of Chemistry and Nano-Science Center, University of Copenhagen, Copenhagen, Denmark"/>
+<meta name="citation_author" content="Julien Boeuf"/>
+  <meta name="citation_author_institution" content="Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France"/>
+<meta name="citation_author" content="Marie-Pierre Candusso"/>
+  <meta name="citation_author_institution" content="Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France"/>
+<meta name="citation_author" content="Renaud Wagner"/>
+  <meta name="citation_author_institution" content="Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France"/>
+<meta name="citation_author" content="Karen L. Martinez"/>
+  <meta name="citation_author_institution" content="Bio-Nanotechnology and Nanomedicine Laboratory, Department of Chemistry and Nano-Science Center, University of Copenhagen, Copenhagen, Denmark"/>
+<meta name="citation_author" content="Frederic Simonin"/>
+  <meta name="citation_author_institution" content="Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France"/>
+
+<meta name="citation_title" content="Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors"/>
+<meta itemprop="name" content="Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors"/>
+<meta name="citation_journal_title" content="PLOS ONE"/>
+<meta name="citation_journal_abbrev" content="PLOS ONE"/>
+<meta name="citation_date" content="Feb 18, 2013"/>
+<meta name="citation_firstpage" content="e56336"/>
+<meta name="citation_issue" content="2"/>
+<meta name="citation_volume" content="8"/>
+<meta name="citation_issn" content="1932-6203"/>
+<meta name="citation_publisher" content="Public Library of Science"/>
+
+  <meta name="citation_pdf_url" content="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0056336&type=printable">
+
+  <meta name="citation_article_type" content="Research Article">
+
+<meta name="dc.identifier" content="10.1371/journal.pone.0056336" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@plosone"/>
+    <meta name="twitter:title" content="Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors" />
+    <meta property="twitter:description" content="GPCR desensitization and down-regulation are considered key molecular events underlying the development of tolerance in vivo. Among the many regulatory proteins that are involved in these complex processes, GASP-1 have been shown to participate to the sorting of several receptors toward the degradation pathway. This protein belongs to the recently identified GPCR-associated sorting proteins (GASPs) family that comprises ten members for which structural and functional details are poorly documented. We present here a detailed structure&ndash;function relationship analysis of the molecular interaction between GASPs and a panel of GPCRs. In a first step, GST-pull down experiments revealed that all the tested GASPs display significant interactions with a wide range of GPCRs. Importantly, the different GASP members exhibiting the strongest interaction properties were also characterized by the presence of a small, highly conserved and repeated &ldquo;GASP motif&rdquo; of 15 amino acids. We further showed using GST-pull down, surface plasmon resonance and co-immunoprecipitation experiments that the central domain of GASP-1, which contains 22 GASP motifs, is essential for the interaction with GPCRs. We then used site directed mutagenesis and competition experiments with synthetic peptides to demonstrate that the GASP motif, and particularly its highly conserved core sequence SWFW, is critically involved in the interaction with GPCRs. Overall, our data show that several members of the GASP family interact with GPCRs and highlight the presence within GASPs of a novel protein-protein interaction motif that might represent a new target to investigate the involvement of GASPs in the modulation of the activity of GPCRs." />
+    <meta property="twitter:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0056336.g008&size=inline" />
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056336"/>
+<meta property="og:title" content="Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors"/>
+<meta property="og:description" content="GPCR desensitization and down-regulation are considered key molecular events underlying the development of tolerance in vivo. Among the many regulatory proteins that are involved in these complex processes, GASP-1 have been shown to participate to the sorting of several receptors toward the degradation pathway. This protein belongs to the recently identified GPCR-associated sorting proteins (GASPs) family that comprises ten members for which structural and functional details are poorly documented. We present here a detailed structure&ndash;function relationship analysis of the molecular interaction between GASPs and a panel of GPCRs. In a first step, GST-pull down experiments revealed that all the tested GASPs display significant interactions with a wide range of GPCRs. Importantly, the different GASP members exhibiting the strongest interaction properties were also characterized by the presence of a small, highly conserved and repeated &ldquo;GASP motif&rdquo; of 15 amino acids. We further showed using GST-pull down, surface plasmon resonance and co-immunoprecipitation experiments that the central domain of GASP-1, which contains 22 GASP motifs, is essential for the interaction with GPCRs. We then used site directed mutagenesis and competition experiments with synthetic peptides to demonstrate that the GASP motif, and particularly its highly conserved core sequence SWFW, is critically involved in the interaction with GPCRs. Overall, our data show that several members of the GASP family interact with GPCRs and highlight the presence within GASPs of a novel protein-protein interaction motif that might represent a new target to investigate the involvement of GASPs in the modulation of the activity of GPCRs."/>
+<meta property="og:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0056336.g008&size=inline"/>
+
+<meta name="citation_reference" content="citation_title=Evolving concepts in G protein-coupled receptor endocytosis: the role in receptor desensitization and signaling;citation_author=SS Ferguson;citation_journal_title=Pharmacol Rev;citation_volume=53;citation_number=53;citation_first_page=1;citation_last_page=24;citation_publication_date=2001;"/>    
+<meta name="citation_reference" content="citation_title=A kinase-regulated PDZ-domain interaction controls endocytic sorting of the beta2-adrenergic receptor;citation_author=TT Cao;citation_author=HW Deacon;citation_author=D Reczek;citation_author=A Bretscher;citation_author=M von Zastrow;citation_journal_title=Nature;citation_volume=401;citation_number=401;citation_first_page=286;citation_last_page=290;citation_publication_date=1999;"/>    
+<meta name="citation_reference" content="citation_title=Ezrin-radixin-moesin-binding phosphoprotein-50/Na+/H+ exchanger regulatory factor (EBP50/NHERF) blocks U50,488H-induced down-regulation of the human kappa opioid receptor by enhancing its recycling rate;citation_author=JG Li;citation_author=C Chen;citation_author=LY Liu-Chen;citation_journal_title=J Biol Chem;citation_volume=277;citation_number=277;citation_first_page=27545;citation_last_page=27552;citation_publication_date=2002;"/>    
+<meta name="citation_reference" content="citation_title=Binding of the beta2 adrenergic receptor to N-ethylmaleimide-sensitive factor regulates receptor recycling;citation_author=M Cong;citation_author=SJ Perry;citation_author=LA Hu;citation_author=PI Hanson;citation_author=A Claing;citation_journal_title=J Biol Chem;citation_volume=276;citation_number=276;citation_first_page=45145;citation_last_page=45152;citation_publication_date=2001;"/>    
+<meta name="citation_reference" content="citation_title=An essential role for SNX1 in lysosomal sorting of protease-activated receptor-1: evidence for retromer-, Hrs-, and Tsg101-independent functions of sorting nexins;citation_author=A Gullapalli;citation_author=BL Wolfe;citation_author=CT Griffin;citation_author=T Magnuson;citation_author=J Trejo;citation_journal_title=Mol Biol Cell;citation_volume=17;citation_number=17;citation_first_page=1228;citation_last_page=1238;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Identification of a novel family of G protein-coupled receptor associated sorting proteins;citation_author=F Simonin;citation_author=P Karcher;citation_author=JJ Boeuf;citation_author=A Matifas;citation_author=BL Kieffer;citation_journal_title=J Neurochem;citation_volume=89;citation_number=89;citation_first_page=766;citation_last_page=775;citation_publication_date=2004;"/>    
+<meta name="citation_reference" content="citation_title=Modulation of postendocytic sorting of G protein-coupled receptors;citation_author=JL Whistler;citation_author=J Enquist;citation_author=A Marley;citation_author=J Fong;citation_author=F Gladher;citation_journal_title=Science;citation_volume=297;citation_number=297;citation_first_page=615;citation_last_page=620;citation_publication_date=2002;"/>    
+<meta name="citation_reference" content="citation_title=A molecular basis of analgesic tolerance to cannabinoids;citation_author=A Tappe-Theodor;citation_author=N Agarwal;citation_author=I Katona;citation_author=T Rubino;citation_author=L Martini;citation_journal_title=J Neurosci;citation_volume=27;citation_number=27;citation_first_page=4165;citation_last_page=4177;citation_publication_date=2007;"/>    
+<meta name="citation_reference" content="citation_title=Differential regulation of behavioral tolerance to WIN55,212–2 by GASP1;citation_author=L Martini;citation_author=D Thompson;citation_author=V Kharazia;citation_author=JL Whistler;citation_journal_title=Neuropsychopharmacology;citation_volume=35;citation_number=35;citation_first_page=1363;citation_last_page=1373;citation_publication_date=2010;"/>    
+<meta name="citation_reference" content="citation_title=A library of 7TM receptor C-terminal tails. Interactions with the proposed post-endocytic sorting proteins ERM-binding phosphoprotein 50 (EBP50), N-ethylmaleimide-sensitive factor (NSF), sorting nexin 1 (SNX1), and G protein-coupled receptor-associated sorting protein (GASP);citation_author=A Heydorn;citation_author=BP Sondergaard;citation_author=B Ersboll;citation_author=B Holst;citation_author=FC Nielsen;citation_journal_title=J Biol Chem;citation_volume=279;citation_number=279;citation_first_page=54291;citation_last_page=54303;citation_publication_date=2004;"/>    
+<meta name="citation_reference" content="citation_title=Dopamine responsiveness is regulated by targeted sorting of D2 receptors;citation_author=SE Bartlett;citation_author=J Enquist;citation_author=FW Hopf;citation_author=JH Lee;citation_author=F Gladher;citation_journal_title=Proc Natl Acad Sci U S A;citation_volume=102;citation_number=102;citation_first_page=11521;citation_last_page=11526;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Attenuated behavioural responses to acute and chronic cocaine in GASP-1-deficient mice;citation_author=J Boeuf;citation_author=JM Trigo;citation_author=PH Moreau;citation_author=L Lecourtier;citation_author=E Vogel;citation_journal_title=Eur J Neurosci;citation_volume=30;citation_number=30;citation_first_page=860;citation_last_page=868;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=Identification and biological significance of G protein-coupled receptor Associated Sorting Proteins (GASP);citation_author=A Abu-Helo;citation_author=F Simonin;citation_journal_title=Pharmacology &amp; Therapeutics;citation_volume=126;citation_number=126;citation_first_page=244;citation_last_page=250;citation_publication_date=2010;"/>    
+<meta name="citation_reference" content="citation_title=Mammalian BEX, WEX and GASP genes: coding and non-coding chimaerism sustained by gene conversion events;citation_author=EE Winter;citation_author=CP Ponting;citation_journal_title=BMC Evol Biol;citation_volume=5;citation_number=5;citation_first_page=54;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Enhancing functional production of G protein-coupled receptors in Pichia pastoris to levels required for structural studies via a single expression screen;citation_author=N Andre;citation_author=N Cherouati;citation_author=C Prual;citation_author=T Steffan;citation_author=G Zeder-Lutz;citation_journal_title=Protein Sci;citation_volume=15;citation_number=15;citation_first_page=1115;citation_last_page=1126;citation_publication_date=2006;"/>    
+
+<meta name="citation_reference" content="Bornert O, Alkhalfioui F, Logez C, Wagner R (2012) Overexpression of membrane proteins using Pichia pastoris. Curr Protoc Protein Sci Chapter 29: Unit 29.22."/>
+<meta name="citation_reference" content="citation_title=quantitative-determination of surface concentration of proteins with surface-plasmon resonance using radiolabeled proteins;citation_author=E Stenberg;citation_author=B Persson;citation_author=H Roos;citation_author=C Urbaniczky;citation_journal_title=J Colloid Interface Sci;citation_volume=143;citation_number=143;citation_first_page=513;citation_last_page=526;citation_publication_date=1991;"/>    
+<meta name="citation_reference" content="citation_title=Improving biosensor analysis;citation_author=DG Myszka;citation_journal_title=J Mol Recognit;citation_volume=12;citation_number=12;citation_first_page=279;citation_last_page=284;citation_publication_date=1999;"/>    
+<meta name="citation_reference" content="citation_title=Partitioning of lipid-modified monomeric GFPs into membrane microdomains of live cells;citation_author=DA Zacharias;citation_author=JD Violin;citation_author=AC Newton;citation_author=RY Tsien;citation_journal_title=Science;citation_volume=296;citation_number=296;citation_first_page=913;citation_last_page=916;citation_publication_date=2002;"/>    
+<meta name="citation_reference" content="citation_title=How to catch a membrane protein in action: a review of functional membrane protein immobilization strategies and their applications;citation_author=V Fruh;citation_author=IJ AP;citation_author=G Siegal;citation_journal_title=Chem Rev;citation_volume=111;citation_number=111;citation_first_page=640;citation_last_page=656;citation_publication_date=2011;"/>    
+<meta name="citation_reference" content="citation_title=Selectivity, cooperativity, and reciprocity in the interactions between the delta-opioid receptor, its ligands, and G-proteins;citation_author=ID Alves;citation_author=KA Ciano;citation_author=V Boguslavski;citation_author=E Varga;citation_author=Z Salamon;citation_journal_title=J Biol Chem;citation_volume=279;citation_number=279;citation_first_page=44673;citation_last_page=44682;citation_publication_date=2004;"/>    
+<meta name="citation_reference" content="citation_title=Direct observation of G-protein binding to the human delta-opioid receptor using plasmon-waveguide resonance spectroscopy;citation_author=ID Alves;citation_author=Z Salamon;citation_author=E Varga;citation_author=HI Yamamura;citation_author=G Tollin;citation_journal_title=J Biol Chem;citation_volume=278;citation_number=278;citation_first_page=48890;citation_last_page=48897;citation_publication_date=2003;"/>    
+<meta name="citation_reference" content="citation_title=Unique agonist-bound cannabinoid CB1 receptor conformations indicate agonist specificity in signaling;citation_author=T Georgieva;citation_author=S Devanathan;citation_author=D Stropova;citation_author=CK Park;citation_author=Z Salamon;citation_journal_title=Eur J Pharmacol;citation_volume=581;citation_number=581;citation_first_page=19;citation_last_page=29;citation_publication_date=2008;"/>    
+<meta name="citation_reference" content="citation_title=On-chip photoactivation of heterologously expressed rhodopsin allows kinetic analysis of G-protein signaling by surface plasmon resonance spectroscopy;citation_author=KE Komolov;citation_author=M Aguila;citation_author=D Toledo;citation_author=J Manyosa;citation_author=P Garriga;citation_journal_title=Anal Bioanal Chem;citation_volume=397;citation_number=397;citation_first_page=2967;citation_last_page=2976;citation_publication_date=2010;"/>    
+<meta name="citation_reference" content="citation_title=Arrestin interactions with G protein-coupled receptors. Direct binding studies of wild type and mutant arrestins with rhodopsin, beta 2-adrenergic, and m2 muscarinic cholinergic receptors;citation_author=VV Gurevich;citation_author=SB Dion;citation_author=JJ Onorato;citation_author=J Ptasienski;citation_author=CM Kim;citation_journal_title=J Biol Chem;citation_volume=270;citation_number=270;citation_first_page=720;citation_last_page=731;citation_publication_date=1995;"/>    
+<meta name="citation_reference" content="citation_title=Differential affinities of visual arrestin, barrestin1 and barrestin2 for G protein-coupled receptors delineate two major classes of receptors;citation_author=RH Oakley;citation_author=SA Laporte;citation_author=JA Holt;citation_author=MG Caron;citation_author=LS Barak;citation_journal_title=JBC;citation_volume=275;citation_number=275;citation_first_page=17201;citation_last_page=17210;citation_publication_date=2000;"/>    
+<meta name="citation_reference" content="citation_title=beta-Arrestin: a protein that regulates beta-adrenergic receptor function;citation_author=MJ Lohse;citation_author=JL Benovic;citation_author=J Codina;citation_author=MG Caron;citation_author=RJ Lefkowitz;citation_journal_title=Science;citation_volume=248;citation_number=248;citation_first_page=1547;citation_last_page=1550;citation_publication_date=1990;"/>    
+
+
+<!-- DoubleClick overall ad setup script -->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<!-- DoubleClick ad slot setup script -->
+
+  <script id="doubleClickSetupScript" type='text/javascript'>
+    googletag.cmd.push(function() {
+  googletag.defineSlot('/75507958/PONE_728x90_ATF', [728, 90], 'div-gpt-ad-1458247671871-0').addService(googletag.pubads());
+  googletag.defineSlot('/75507958/PONE_160x600_BTF', [160, 600], 'div-gpt-ad-1458247671871-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+
+
+<script type="text/javascript">
+    var WombatConfig = WombatConfig || {};
+    WombatConfig.resourcePath = "/plosone/resource/";
+    WombatConfig.imgPath = "/plosone/resource/img/";
+    WombatConfig.journalKey = "PLoSONE";
+    WombatConfig.figurePath = "/plosone/article/figure/image";
+    WombatConfig.figShareInstitutionString = "plos";
+    WombatConfig.doiResolverPrefix = "http://dx.plos.org/";
+</script>
+
+<script type="text/javascript">
+  var WombatConfig = WombatConfig || {};
+  WombatConfig.metrics = WombatConfig.metrics || {};
+  WombatConfig.metrics.referenceUrl      = "http://lagotto.io/plos";
+  WombatConfig.metrics.googleScholarUrl  = "https://scholar.google.com/scholar";
+  WombatConfig.metrics.googleScholarCitationUrl  = WombatConfig.metrics.googleScholarUrl + "?hl=en&lr=&q=";
+  WombatConfig.metrics.crossrefUrl  = "https://www.crossref.org";
+</script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script>window.jQuery || document.write('<script src="/plosone/resource/js/vendor/jquery-2.1.4.min.js""><\/script>')</script>
+
+          <script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+
+
+
+
+
+
+
+
+<!--For Google Tag manager to be able to track site information  -->
+<script>
+
+  dataLayer = [{
+    'mobileSite': 'false',
+    'desktopSite': 'true'
+  }];
+
+</script>
+
+</head>
+
+
+
+<body class="article plosone">
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TP26BH"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP26BH');</script>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQQMGF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQQMGF');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<header>
+
+  <div id="topslot" class="head-top">
+
+<div class="center">
+<div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-0' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-0'); });
+    </script>
+  </div>
+</div>
+  </div>
+
+  <div id="user" class="nav">
+    <ul class="nav-user">
+
+
+
+
+      <li ><a href="https://www.plos.org">plos.org</a></li>
+
+
+        <li ><a href="https://community.plos.org/registration/new">create account</a></li>
+
+
+          <li class="highlighted"><a href="/plosone/user/secure/login?page=%2Fplosone%2Farticle%3Fid%3D10.1371%2Fjournal.pone.0056336">sign in</a></li>
+
+    </ul>
+  </div>
+  <div id="pagehdr">
+
+    <nav class="nav-main">
+
+
+
+
+<h1 class="logo">
+  <a href="/plosone/.">PLOS ONE</a>
+</h1>
+
+<section class="top-bar-section"> 
+
+<ul class="nav-elements">
+
+
+    <li class="multi-col-parent menu-section-header has-dropdown" id="publish">
+    Publish
+      <div class="dropdown mega ">
+        <ul class="multi-col" id="publish-dropdown-list">
+
+  <li class="menu-section-header " id="submissions">
+    <span class="menu-section-header-title">  Submissions </span>
+
+    <ul class="menu-section "
+        id="submissions-dropdown-list">
+      <li>
+    <a href="/plosone/s/getting-started" >Getting Started</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submission-guidelines" >Submission Guidelines</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/figures" >Figures</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/tables" >Tables</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/supporting-information" >Supporting Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/latex" >LaTeX</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/preprints" >Preprints</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/revising-your-manuscript" >Revising Your Manuscript</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submit-now" >Submit Now</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="policies">
+    <span class="menu-section-header-title">  Policies </span>
+
+    <ul class="menu-section "
+        id="policies-dropdown-list">
+      <li>
+    <a href="/plosone/s/best-practices-in-research-reporting" >Best Practices in Research Reporting</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/human-subjects-research" >Human Subjects Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/animal-research" >Animal Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/competing-interests" >Competing Interests</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/disclosure-of-funding-sources" >Disclosure of Funding Sources</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/licenses-and-copyright" >Licenses and Copyright</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/data-availability" >Data Availability</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/materials-and-software-sharing" >Materials and Software Sharing</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/ethical-publishing-practice" >Ethical Publishing Practice</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/authorship" >Authorship</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/downloads-and-translations" >Downloads and Translations</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="manuscript-review-and-publication">
+    <span class="menu-section-header-title">  Manuscript Review and Publication </span>
+
+    <ul class="menu-section "
+        id="manuscript-review-and-publication-dropdown-list">
+      <li>
+    <a href="/plosone/s/criteria-for-publication" >Criteria for Publication</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/editorial-and-peer-review-process" >Editorial and Peer Review Process</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/editor-center" >Editor Center</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/reviewer-guidelines" >Guidelines for Reviewers</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/accepted-manuscripts" >Accepted Manuscripts</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/corrections-and-retractions" >Corrections and Retractions</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/comments" >Comments</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/article-level-metrics" >Article-Level Metrics</a>
+  </li>
+
+    </ul>
+
+  </li>
+        </ul>
+          <div class="calloutcontainer">
+
+
+
+  <h3 class="callout-headline">Submit Your Manuscript</h3>
+
+  <div class="action-contain">
+  <p class="callout-content">
+  Discover a faster, simpler path to publishing in a high-quality journal. <em>PLOS ONE</em> promises fair, rigorous peer review,
+  broad scope, and wide readership – a perfect fit for your research every time.
+  </p>
+
+  <p class="button-contain special">
+    <a class="button button-default" href="/plosone/static/publish">
+     Learn More
+    </a>
+    <a class="button-link" href="https://www.editorialmanager.com/pone/default.asp">
+      Submit Now
+    </a>
+  </p>
+  </div>  <!-- opens in siteMenuCalloutDescription -->
+
+
+          </div>
+      </div>
+    </li>
+
+
+
+  <li class="menu-section-header has-dropdown " id="about">
+    <span class="menu-section-header-title">  About </span>
+
+    <ul class="menu-section dropdown "
+        id="about-dropdown-list">
+      <li>
+    <a href="/plosone/static/publish" >Why Publish with PLOS ONE</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/journal-information" >Journal Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/staff-editors" >Staff Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/static/editorial-board" >Editorial Board</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/section-editors" >Section Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/advisory-groups" >Advisory Groups</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/find-and-read-articles" >Find and Read Articles</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/publishing-information" >Publishing Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/publication-fees" >Publication Fees</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/press-and-media" >Press and Media</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/contact" >Contact</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+  <li data-js-tooltip-hover="trigger" class="subject-area menu-section-header">
+  Browse
+  </li>
+
+      <li id="navsearch" class="head-search">
+
+
+    <form name="searchForm" action="/plosone/search" method="get">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="search-contain">
+          <input id="search" type="text" name="q" placeholder="SEARCH" required/>
+          <button id="headerSearchButton" type="submit"><span class="search-icon"></span></button>
+        </div>
+      </fieldset>
+      <input type="hidden" name="filterJournals" value="PLoSONE"/>
+    </form>
+
+    <a id="advSearch"
+       href="/plosone/search">
+      advanced search
+    </a>
+
+
+
+
+      </li>
+
+      </ul>     
+      </section>  
+    </nav>
+  </div>
+
+</header><section id="taxonomyContainer">
+
+<div id="taxonomy-browser" class="areas" data-search-url="/plosone/browse">
+  <div class="wrapper">
+    <div class="taxonomy-header">
+      Browse Subject Areas
+      <div id="subjInfo">?</div>
+      <div id="subjInfoText">
+        <p>Click through the PLOS taxonomy to find articles in your field.</p>
+        <p>For more information about PLOS Subject Areas, click
+          <a href="https://github.com/PLOS/plos-thesaurus/blob/develop/README.md" target="_blank" title="Link opens in new window">here</a>.
+        </p>
+      </div>
+    </div>
+    <div class="levels">
+      <div class="levels-container cf">
+        <div class="levels-position"></div>
+      </div>
+      <a href="#" class="prev"></a>
+      <a href="#" class="next active"></a>
+    </div>
+  </div>
+  <div class="taxonomy-browser-border-bottom"></div>
+</div></section>
+<main> <div class="set-grid">
+
+<header class="title-block">
+
+
+
+<script type="text/javascript">
+  var COUNTER_HOST = "https://counter.plos.org/api/v1.0/stats/totals/doi";
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "https://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "https://alm.plos.org/api/v5/articles";
+</script>
+
+<ul id="almSignposts" class="signposts">
+  <li id="loadingMetrics">
+    <p>Loading metrics</p>
+  </li>
+</ul>
+
+<script type="text/template" id="signpostsGeneralErrorTemplate">
+  <li id="metricsError">Article metrics are unavailable at this time. Please try again later.</li>
+</script>
+
+<script type="text/template" id="signpostsNewArticleErrorTemplate">
+  <li></li><li></li><li id="tooSoon">Article metrics are unavailable for recently published articles.</li>
+</script>
+
+<script type="text/template" id="signpostsTemplate">
+    <li id="almSaves">
+      <%= s.numberFormat(saveCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#savedHeader">Save</a>
+        <p class="saves-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#savedHeader">Total Mendeley and CiteULike bookmarks.</a></p>
+      </div>
+    </li>
+
+    <li id="almCitations">
+      <%= s.numberFormat(citationCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#citedHeader">Citation</a>
+        <p class="citations-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#citedHeader">Paper's citation count computed by Scopus.</a></p>
+      </div>
+    </li>
+
+    <li id="almViews">
+      <%= s.numberFormat(viewCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#viewedHeader">View</a>
+        <p class="views-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#viewedHeader">Sum of PLOS and PubMed Central page views and downloads.</a></p>
+      </div>
+    </li>
+
+    <li id="almShares">
+      <%= s.numberFormat(shareCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#discussedHeader">Share</a>
+        <p class="shares-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0056336#discussedHeader">Sum of Facebook and Twitter activity.</a></p>
+      </div>
+    </li>
+</script>
+
+    <div class="article-meta">
+
+<div class="classifications">
+  <p class="license-short" id="licenseShort">Open Access</p>
+  <p class="peer-reviewed" id="peerReviewed">Peer-reviewed</p>
+
+<div class="article-type" >
+  <p class="type-article" id="artType">Research Article</p>
+</div>
+
+
+</div>
+
+
+    </div>
+    <div class="article-title-etc">
+
+
+
+<div class="title-authors">
+  <h1 id="artTitle"><?xml version="1.0" encoding="UTF-8"?>Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors</h1>
+
+<ul class="author-list clearfix"  data-js-tooltip="tooltip_container" id="author-list">
+
+
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="0" class="author-name" >
+Olivier Bornert,</a>    <div id="author-meta-0" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-0"><span class="type">Affiliations</span>
+    
+Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France, 
+    BioXtal, Saint Félix, France
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose0"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="1" class="author-name" >
+Thor C. Møller,</a>    <div id="author-meta-1" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-1"><span class="type">Affiliation</span>
+    Bio-Nanotechnology and Nanomedicine Laboratory, Department of Chemistry and Nano-Science Center, University of Copenhagen, Copenhagen, Denmark
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose1"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="2" class="author-name" >
+Julien Boeuf,</a>    <div id="author-meta-2" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-2"><span class="type">Affiliation</span>
+    
+Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose2"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="3" class="author-name" >
+Marie-Pierre Candusso,</a>    <div id="author-meta-3" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-3"><span class="type">Affiliation</span>
+    
+Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose3"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="4" class="author-name" >
+Renaud Wagner,</a>    <div id="author-meta-4" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-4"><span class="type">Affiliation</span>
+    
+Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose4"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="5" class="author-name" >
+Karen L. Martinez,</a>    <div id="author-meta-5" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-5"><span class="type">Affiliation</span>
+    Bio-Nanotechnology and Nanomedicine Laboratory, Department of Chemistry and Nano-Science Center, University of Copenhagen, Copenhagen, Denmark
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose5"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="6" class="author-name" >
+Frederic Simonin <span class="email">  </span></a>    <div id="author-meta-6" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p id="authCorresponding-6"> <span class="email">* E-mail:</span> <a href="mailto:simonin@unistra.fr">simonin@unistra.fr</a></p>
+  <p id="authAffiliations-6"><span class="type">Affiliation</span>
+    
+Institut de Recherche de l'ESBS, Biotechnology and Cellular Signaling, Universite de Strasbourg-CNRS UMR 7242 / laboratory of excellence MEDALIS, Illkirch, France
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose6"> &#x02A2F; </a>
+    </div>
+</li>
+
+</ul>
+
+</div>
+
+
+<div id="floatTitleTop" data-js-floater="title_author" class="float-title">
+  <div class="set-grid">
+    <div class="float-title-inner">
+      <h1><?xml version="1.0" encoding="UTF-8"?>Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors</h1>
+
+<ul id="floatAuthorList" data-js-floater="floated_authors">
+
+  <li data-float-index="1">Olivier Bornert,&nbsp;
+
+  </li>
+  <li data-float-index="2">Thor C. Møller,&nbsp;
+
+  </li>
+  <li data-float-index="3">Julien Boeuf,&nbsp;
+
+  </li>
+  <li data-float-index="4">Marie-Pierre Candusso,&nbsp;
+
+  </li>
+  <li data-float-index="5">Renaud Wagner,&nbsp;
+
+  </li>
+  <li data-float-index="6">Karen L. Martinez,&nbsp;
+
+  </li>
+  <li data-float-index="7">Frederic Simonin
+
+  </li>
+
+</ul>
+
+
+
+    </div>
+    <div class="logo-close" id="titleTopCloser">
+      <img src="/plosone/resource/img/logo.plos.95.png" alt="PLOS" />
+      <div class="close-floater" title="close">x</div>
+    </div>
+  </div>
+</div>
+
+      <ul class="date-doi">
+        <li id="artPubDate">Published: February 18, 2013</li>
+        <li id="artDoi">
+<a   href="https://doi.org/10.1371/journal.pone.0056336">https://doi.org/10.1371/journal.pone.0056336</a>
+        </li>
+      </ul>
+
+    </div>
+  <div>
+
+  </div>
+</header>
+
+  <section class="article-body">
+
+
+
+<ul class="article-tabs">
+
+          <li class="tab-title active" id="tabArticle">
+            <a href="/plosone/article?id=10.1371/journal.pone.0056336" class="article-tab-1">Article</a>
+        </li>
+
+
+              <li class="tab-title " id="tabAuthors">
+            <a href="/plosone/article/authors?id=10.1371/journal.pone.0056336" class="article-tab-2">Authors</a>
+        </li>
+
+
+          <li class="tab-title " id="tabMetrics">
+            <a href="/plosone/article/metrics?id=10.1371/journal.pone.0056336" class="article-tab-3">Metrics</a>
+        </li>
+
+
+          <li class="tab-title " id="tabComments">
+            <a href="/plosone/article/comments?id=10.1371/journal.pone.0056336" class="article-tab-4">Comments</a>
+        </li>
+
+          <li class="tab-title " id="tabRelated">
+            <a href="/plosone/article/related?id=10.1371/journal.pone.0056336" class="article-tab-5">Media Coverage</a>
+        </li>
+
+</ul>
+
+    <div class="article-container">
+
+
+<div id="nav-article">
+  <ul class="nav-secondary">
+
+    <li class="nav-comments" id="nav-comments">
+      <a href="article/comments?id=10.1371/journal.pone.0056336">Reader Comments (0)</a>
+    </li>
+
+    <li class="nav-media" id="nav-media" data-doi="10.1371/journal.pone.0056336">
+      <a href="/plosone/article/related?id=10.1371/journal.pone.0056336">
+        Media Coverage <span id="media-coverage-count"></span>
+      </a>
+    </li>
+
+    <li id="nav-figures"><a href="#" data-doi="10.1371/journal.pone.0056336">Figures</a></li>
+  </ul>
+</div>
+
+<div id="figure-lightbox-container"></div>
+
+<script id="figure-lightbox-template" type="text/template">
+  <div id="figure-lightbox" class="reveal-modal full" data-reveal aria-hidden="true"
+       role="dialog">
+    <div class="lb-header">
+      <h1 id="lb-title"><%= articleTitle %></h1>
+
+      <div id="lb-authors">
+              <span>Olivier Bornert</span>
+              <span>Thor C. Møller</span>
+          <a class="more-authors" href="/plosone/article/authors?id=10.1371/journal.pone.0056336">...</a>
+          <span>Frederic Simonin</span>
+      </div>
+
+      <div class="lb-close" title="close">&nbsp;</div>
+    </div>
+    <div class="img-container">
+      <div class="loader"> <i class="fa-spinner"></i> </div>
+      <img class="main-lightbox-image" src=""/>
+      <aside id="figures-list">
+        <% figureList.each(function (ix, figure) { %>
+        <div class="change-img" data-doi="<%= figure.getAttribute('data-doi') %>">
+          <img class="aside-figure" src="/plosone/article/figure/image?size=inline&id=<%= figure.getAttribute('data-doi') %>" />
+        </div>
+        <% }) %>
+        <div class="dummy-figure">
+        </div>
+      </aside>
+    </div>
+    <div id="lightbox-footer">
+
+      <div id="btns-container" class="lightbox-row <% if(figureList.length <= 1) { print('one-figure-only') } %>">
+        <div class="fig-btns-container reset-zoom-wrapper left">
+          <span class="fig-btn reset-zoom-btn">Reset zoom</span>
+        </div>
+        <div class="zoom-slider-container">
+          <div class="range-slider-container">
+            <span id="lb-zoom-min"></span>
+            <div class="range-slider round" data-slider data-options="start: 20; end: 200; initial: 20;">
+              <span class="range-slider-handle" role="slider" tabindex="0"></span>
+              <span class="range-slider-active-segment"></span>
+              <input type="hidden">
+            </div>
+            <span id="lb-zoom-max"></span>
+          </div>
+        </div>
+        <% if(figureList.length > 1) { %>
+        <div class="fig-btns-container">
+          <span class="fig-btn all-fig-btn"><i class="icon icon-all"></i> All Figures</span>
+          <span class="fig-btn next-fig-btn"><i class="icon icon-next"></i> Next</span>
+          <span class="fig-btn prev-fig-btn"><i class="icon icon-prev"></i> Previous</span>
+        </div>
+        <% } %>
+      </div>
+      <div id="image-context">
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="image-context-template" type="text/template">
+  <div class="footer-text">
+    <div id="figure-description-wrapper">
+      <div id="view-more-wrapper" style="<% descriptionExpanded? print('display:none;') : '' %>">
+        <span id="figure-title"><%= title %></span>
+        <p id="figure-description">
+          <%= description %>&nbsp;&nbsp;
+        </p>
+        <span id="view-more">show more<i class="icon-arrow-right"></i></span>
+
+      </div>
+      <div id="view-less-wrapper" style="<% descriptionExpanded? print('display:inline-block;') : '' %>" >
+        <span id="figure-title"><%= title %></span>
+        <p id="full-figure-description">
+          <%= description %>&nbsp;&nbsp;
+          <span id="view-less">show less<i class="icon-arrow-left"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="show-context-container">
+    <a class="btn show-context" href="<%= showInContext(strippedDoi) %>">Show in Context</a>
+  </div>
+  <div id="download-buttons">
+    <h3>Download:</h3>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=original&download=&id=<%= doi %>" title="original image">
+        <span class="download-btn">TIFF</span>
+      </a>
+      <span class="file-size"><%= fileSizes.original %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=large&download=&id=<%= doi %>" title="large image">
+        <span class="download-btn">PNG</span>
+      </a>
+      <span class="file-size"><%= fileSizes.large %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/powerpoint?id=<%= doi %>" title="PowerPoint slide">
+        <span class="download-btn">PPT</span>
+      </a>
+    </div>
+
+  </div>
+</script>
+      <div class="article-content">
+
+
+
+
+
+
+
+<div id="figure-carousel-section">
+  <h2>Figures</h2>
+
+  <div id="figure-carousel">
+
+    <div class="carousel-wrapper">
+      <div class="slider">
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g001">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g001"
+                     alt="Figure 1"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g002">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g002"
+                     alt="Figure 2"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g003">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g003"
+                     alt="Figure 3"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g004">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g004"
+                     alt="Figure 4"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g005">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g005"
+                     alt="Figure 5"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g006">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g006"
+                     alt="Figure 6"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g007">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g007"
+                     alt="Figure 7"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0056336.g008">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0056336.g008"
+                     alt="Figure 8"
+                />
+
+            </div>
+      </div>
+    </div>
+
+    <div class="carousel-control">
+      <span class="button previous"></span>
+      <span class="button next"></span>
+    </div>
+    <div class="carousel-page-buttons">
+
+    </div>
+  </div>
+</div>
+
+
+        <div class="article-text" id="artText">
+          
+
+
+
+<div class="abstract toc-section"><a id="abstract0" name="abstract0" data-toc="abstract0" class="link-target" title="Abstract"></a><h2>Abstract</h2><a id="article1.front1.article-meta1.abstract1.p1" name="article1.front1.article-meta1.abstract1.p1" class="link-target"></a><p>GPCR desensitization and down-regulation are considered key molecular events underlying the development of tolerance <em>in vivo</em>. Among the many regulatory proteins that are involved in these complex processes, GASP-1 have been shown to participate to the sorting of several receptors toward the degradation pathway. This protein belongs to the recently identified GPCR-associated sorting proteins (GASPs) family that comprises ten members for which structural and functional details are poorly documented. We present here a detailed structure–function relationship analysis of the molecular interaction between GASPs and a panel of GPCRs. In a first step, GST-pull down experiments revealed that all the tested GASPs display significant interactions with a wide range of GPCRs. Importantly, the different GASP members exhibiting the strongest interaction properties were also characterized by the presence of a small, highly conserved and repeated “GASP motif” of 15 amino acids. We further showed using GST-pull down, surface plasmon resonance and co-immunoprecipitation experiments that the central domain of GASP-1, which contains 22 GASP motifs, is essential for the interaction with GPCRs. We then used site directed mutagenesis and competition experiments with synthetic peptides to demonstrate that the GASP motif, and particularly its highly conserved core sequence SWFW, is critically involved in the interaction with GPCRs. Overall, our data show that several members of the GASP family interact with GPCRs and highlight the presence within GASPs of a novel protein-protein interaction motif that might represent a new target to investigate the involvement of GASPs in the modulation of the activity of GPCRs.</p>
+</div>
+
+
+<div class="articleinfo"><p><strong>Citation: </strong>Bornert O, Møller TC, Boeuf J, Candusso M-P, Wagner R, Martinez KL, et al.  (2013) Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors. PLoS ONE 8(2):
+           e56336.
+        
+        https://doi.org/10.1371/journal.pone.0056336</p><p><strong>Editor: </strong>Claudio M. Costa-Neto, 
+        University of São Paulo, Brazil
+      </p><p><strong>Received: </strong>October 2, 2012; <strong>Accepted: </strong>January 8, 2013; <strong>Published: </strong> February 18, 2013</p><p><strong>Copyright: </strong> © 2013 Bornert et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work was supported by Ministère de l’Education Nationale de l’Enseignement Supérieur et de la Recherche (MENSER) fellowship, Association pour la Recherche sur le Cancer (N°3423), Fondation pour la Recherche Médicale, Centre National de la Recherche Scientifique, Université Louis Pasteur, the Lundbeck Foundation Center for Biomembranes and Nanomedicine, and the programs BioScaRT and UNIK Synthetic Biology. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests: </strong> O. Bornert is an employee of the company BioXtal. This does not alter the authors’ adherence to all the PLOS ONE policies on sharing data and materials.</p></div>
+
+
+
+
+
+<div id="section1" class="section toc-section"><a id="s1" name="s1" data-toc="s1" class="link-target" title="Introduction"></a><h2>Introduction</h2><a id="article1.body1.sec1.p1" name="article1.body1.sec1.p1" class="link-target"></a><p>G protein-coupled receptors (GPCRs) represent one of the most diversified protein families in humans. They modulate a large panel of physiological processes making them unrivalled targets for development of new therapeutic agents. GPCRs translate extracellular stimuli into intracellular signals, and the intensity and duration of these are determined by complex regulation mechanisms. Internalization, whereby agonist-activated GPCRs are rapidly silenced by translocation from the cell surface to endocytic compartments, represents a central event for the modulation of receptor activity <a href="#pone.0056336-Ferguson1" class="ref-tip">[1]</a>. Upon internalization, GPCRs can be recycled back to the membrane or degraded. Although mechanisms that govern the postendocytic fate of GPCRs are not fully understood, several proteins have been shown to modulate this phenomenon via a direct interaction with their carboxyl-terminal intracellular tail (C-tail) <a href="#pone.0056336-Cao1" class="ref-tip">[2]</a>–<a href="#pone.0056336-Gullapalli1" class="ref-tip">[5]</a>. One of these regulatory proteins is GPCR-associated sorting protein 1 (GASP-1), which was identified in a yeast two-hybrid screen using the δ-opioid receptor (DOR) cytoplasmic C-tail as bait <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a> and has been shown to be involved in the sorting of receptors that are quickly degraded following agonist-promoted internalization <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>. This phenomenon has been proposed to form the molecular basis for analgesic tolerance to cannabinoids <a href="#pone.0056336-TappeTheodor1" class="ref-tip">[8]</a>, <a href="#pone.0056336-Martini1" class="ref-tip">[9]</a>. GASP-1 was also found to interact with numerous other receptors both <em>in vitro</em> <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>, <a href="#pone.0056336-Heydorn1" class="ref-tip">[10]</a> and <em>in vivo</em> <a href="#pone.0056336-Bartlett1" class="ref-tip">[11]</a>, <a href="#pone.0056336-Boeuf1" class="ref-tip">[12]</a>. Although, its has been proposed that the binding epitope for GASP-1 to these receptors is large an covers major parts of the cytoplasmic C-tail of receptors (Heydorn et al., 2004), we have shown that helix 8, located near the seventh transmembrane helix, is critically involved in this interaction <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>. Concerning GASP-1, little is known about which region within this protein is required for its interaction with GPCRs.</p>
+<a id="article1.body1.sec1.p2" name="article1.body1.sec1.p2" class="link-target"></a><p>GASP-1 is part of a novel protein family of ten members that were identified by sequence homology searches <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-AbuHelo1" class="ref-tip">[13]</a>. The carboxyl-terminal 250 amino acids (AA) region of GASP-1 displays remarkable sequence identity with the nine other members of the family. Furthermore, GASP genes, except GASP-8, contain a single coding-exon and are located within two 200-kilobase clusters on two adjacent contigs on chromosome X, suggesting that they arose from a common ancestral gene <a href="#pone.0056336-AbuHelo1" class="ref-tip">[13]</a>, <a href="#pone.0056336-Winter1" class="ref-tip">[14]</a>. Altogether, these data indicate that GASPs do indeed form a protein family and might display similar functions. However, except GASP-1 and GASP-2, interaction of the other members of the family with GPCRs has not been investigated so far.</p>
+<a id="article1.body1.sec1.p3" name="article1.body1.sec1.p3" class="link-target"></a><p>In this study, we present a detailed structure–function relationship analysis of the molecular interaction between GASPs and GPCRs. GST-pull down experiments revealed that, besides GASP-1 and GASP-2, different members of the GASP family can interact with a wide range of GPCRs. Using surface plasmon resonance (SPR) analysis with two full-length GPCRs in solution and co-immunoprecipitation of GPCRs expressed in HEK293 cells, we further showed that the central domain of GASP-1 is critical for its interaction with GPCRs. Finally, we identified within this domain and in several other GASPs a conserved and repeated sequence of 15 amino acids that we called “GASP motif” and demonstrated that this motif plays a critical role in the interaction with GPCRs, both by site directed mutagenesis and competition experiments with synthetic peptides. Overall, our results demonstrate that GASPs indeed represent a novel family of GPCR-interacting proteins that can be divided into two subfamilies depending on the presence of the GASP motif. Our data clearly show that this sequence represents a novel protein–protein interaction motif that is critical for the interaction between GASPs and GPCRs.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="s2" name="s2" data-toc="s2" class="link-target" title="Materials and Methods"></a><h2>Materials and Methods</h2>
+<div id="section1" class="section toc-section"><a id="s2a" name="s2a" class="link-target" title="Materials"></a>
+<h3>Materials</h3>
+<a id="article1.body1.sec2.sec1.p1" name="article1.body1.sec2.sec1.p1" class="link-target"></a><p>The pGEX-2T and pGEX-4T3 prokaryotic expression vectors were purchased from Amersham Biosciences (GE Healthcare) and the pcDNA3.1 eukaryotic expression vector was from Invitrogen. The cDNA encoding GASP-3 was obtained from the Kazusa DNA Research Institute (Chiba, Japan; <a href="http://www.kazusa.or.jp/huge/">http://www.kazusa.or.jp/huge/</a>) and cDNAs encoding GASP-6, -7, and -9 cloned into pBluescript II SK (+) were from Invitrogen. Radiolabelled [<sup>35</sup>S]-Methionine was purchased from ICN. GASP peptide (RVKQEPRFEEEVIIGSWFWAEKEA), control peptide (RVKQEPRFEEEVIIGAAAAAEKEA) and scramble peptide (AVEWIQEVFWEKRKPEEFGIERAS) were from Genecust with a ≥85% purity grade.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="s2b" name="s2b" class="link-target" title="Production of GST-fused Proteins"></a>
+<h3>Production of GST-fused Proteins</h3>
+<a id="article1.body1.sec2.sec2.p1" name="article1.body1.sec2.sec2.p1" class="link-target"></a><p>cDNAs encoding the cytoplasmic C-tail of 14 GPCRs and 2 one-transmembrane receptors were cloned into the pGEX-2T prokaryotic expression vector downstream the GST sequence. The following pGEX constructs were engineered: pGEX-DOR encoding residues 314–372 of the δ-opioid receptor (referring to Swiss-Prot accession number U10504), pGEX-MOR encoding residues 334–400 of the µ-opioid receptor (L29301), pGEX-KOR encoding residues 326–380 of the κ–opioid receptor (U17298), pGEX-ORL<sub>1</sub> encoding residues 315–370 of the opioid receptor-like 1 (X77130), pGEX-M<sub>1</sub> encoding residues 414–460 of the muscarinic M<sub>1</sub> acetylcholine receptor (X52068), pGEX-M<sub>2</sub> encoding residues 436–466 of the muscarinic M<sub>2</sub> acetylcholine receptor (M16404), pGEX- ADRB1 encoding residues 373–477 of the β<sub>1</sub> adrenergic receptor (J03019), pGEX-ADRB2 encoding residues 322–413 of the β<sub>2</sub> adrenergic receptor (P07550), pGEX-CALCR encoding residues 407–490 of the calcitonin receptor (L00587), pGEX-CNR2 encoding residues 295–360 of the cannabinoid type 2 receptor (P34972), pGEX-5HT<sub>7</sub> encoding residues 380–445 of the 5-hydroxytryptamine 7 receptor (L21195), pGEX-H<sub>2</sub> encoding residues 284–349 of the histamine 2 receptor (S57565), pGEX-TXA<sub>2</sub> encoding residues 304–343 of the α isoform of the thromboxane A<sub>2</sub> receptor (D38081), pGEX-FZ<sub>4</sub> encoding residues 493–537 of the frizzled 4 receptor (AB032417), pGEX-TGF<sub>β</sub> encoding residues 805–849 of the type III transforming growth factor b receptor (L07594), pGEX-IGF<sub>1</sub> encoding residues 1268–1367 of the insulin growth factor I receptor (X04434). Free GST was produced by using the pGEX-4T3 expression vector without insert. The same plasmid was used to clone the cDNA encoding a central domain of GASP-1, corresponding to amino acids 380 to 1073, downstream the GST sequence. All these plasmids were transformed into the <em>Escherichia coli</em> BL21 strain and expression was induced using 1<strong> </strong>mM of isopropylthiogalactoside for 2 h at 37°C. Bacteria were then pelleted, resuspended in PBS supplemented with cOmplete protease inhibitors (Roche), lysed at 1.5 kbar using a basic Z cell disrupter (constant system) and finally the lysates were cleared by centrifugation (10,000g, 15 min, 4°C).</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="s2c" name="s2c" class="link-target" title="[35S]-labelled GASPs in vitro Production"></a>
+<h3>[<sup>35</sup>S]-labelled GASPs in vitro Production</h3>
+<a id="article1.body1.sec2.sec3.p1" name="article1.body1.sec2.sec3.p1" class="link-target"></a><p>cDNAs encoding GASP-1 and GASP-2 were cloned into the pcDNA3 eukaryotic expression vectors <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>. cDNAs encoding GASP-3, -6, -7, and -9 were subcloned into pcDNA3.1 vectors. All the clones were controlled by DNA sequencing. The <em>in vitro</em> production was performed by using the TNT Quick-coupled Transcription/Translation T7 kit (Promega) in presence of [<sup>35</sup>S]-Methionine according to the instructions from the manufacturer.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="s2d" name="s2d" class="link-target" title="GST-pull Down Assay"></a>
+<h3>GST-pull Down Assay</h3>
+<a id="article1.body1.sec2.sec4.p1" name="article1.body1.sec2.sec4.p1" class="link-target"></a><p>GST-fusion proteins were immobilized on glutathione-coupled Sepharose beads (GE Healthcare) for 1 h at 4°C and incubated with [<sup>35</sup>S]-labelled <em>in vitro</em> translated GASP proteins or their truncated or mutated forms in ice-cold binding buffer containing: 20 mM Tris-HCl pH 7.4, 150 mM NaCl, 1 mM EDTA, 1 mM DTT, 10% glycerol and 1% Triton X-100. The mixture was incubated for 1 h at 4°C with gentle rocking. The beads were washed five times with the same ice-cold buffer, resuspended in 30 µl SDS-PAGE sample buffer, incubated 10 min at 65°C, and pelleted for 60 s at 3000 g. The supernatants were then analyzed by SDS-PAGE, the gels were stained with Coomassie blue to visualize GST-fusion proteins, dried and analyzed using a Phosphor-imager (Personal Molecular Imager FX, Biorad) to visualize [<sup>35</sup>S]-labelled GASPs. Quantification was performed with the Quantity One software (Biorad). GST-pull down quantification data were analyzed using GraphPad Prism 4.03 (GraphPad Software). Quantifications presented are means of at least three independent experiments.</p>
+</div>
+
+<div id="section5" class="section toc-section"><a id="s2e" name="s2e" class="link-target" title="GST-pull Down Competition Experiments"></a>
+<h3>GST-pull Down Competition Experiments</h3>
+<a id="article1.body1.sec2.sec5.p1" name="article1.body1.sec2.sec5.p1" class="link-target"></a><p>GASP peptide or its corresponding scrambled version was incubated with GST-fused proteins and [<sup>35</sup>S]-labelled GASPs and the binding was analyzed as described for the GST-pull down assay. In a first step, dose-effects of GASP peptides were assessed in competition experiments between [<sup>35</sup>S]-labelled GASP-2 and GASP peptides (concentrations ranging from 1 to 250 µM) for the interaction with GST-ADRB1. Subsequent competition experiments with other GASPs and GPCR C-tails were performed by using a single GASP peptide concentration of 150 µM.</p>
+</div>
+
+<div id="section6" class="section toc-section"><a id="s2f" name="s2f" class="link-target" title="Production and Purification of Full-length GPCRs"></a>
+<h3>Production and Purification of Full-length GPCRs</h3>
+<a id="article1.body1.sec2.sec6.p1" name="article1.body1.sec2.sec6.p1" class="link-target"></a><p>The human ADRB2 and CNR2 receptors were produced using the <em>P. pastoris</em> expression system as previously described <a href="#pone.0056336-Andre1" class="ref-tip">[15]</a>, <a href="#pone.0056336-Bornert1" class="ref-tip">[16]</a>. After methanol-induced receptor expression, cells were washed with PBS pH 7.0 and resuspended in ice-cold buffer A (50 mM Tris-HCl pH 7.4, 500 mM NaCl, 10% glycerol, 5 mM EDTA, 1 mM PMSF, 2 mM DDT). Cells were then lysed with two cycles of 20 s shaking and 20 s cooling on ice using 0.5 mm glass beads in a FastPrep 24 device. Unbroken cells and cell debris were removed by centrifugation (3000 g, 5 min, 4°C) and the membrane fraction from the supernatant was pelleted by ultracentrifugation (100,000 g, 45 min, 4°C). Membranes were resuspended in buffer B (50 mM Tris-HCl pH 7.4, 500 mM NaCl, 10% glycerol, 1 mM PMSF, 2 mM DTT) using a Dounce homogenizer, and then successively washed with urea (buffer B with 4 M urea) and NaOH (buffer B with 10 mM NaOH), and ultracentrifuged (100,000 g, 45 min, 4°C). Finally membranes were resuspended in buffer B and quantified with the bicinchoninic acid (BCA) method (Pierce).</p>
+<a id="article1.body1.sec2.sec6.p2" name="article1.body1.sec2.sec6.p2" class="link-target"></a><p>Approximately 150 mg membrane proteins were extracted by 5 min incubation at room temperature in buffer C (50 mM Tris-HCl pH 7.4, 500 mM NaCl, 10% glycerol, 1 mM PMSF, 2 mM DTT, 50 mM imidazole, 1% (w/v) DDM, 0.1% (w/v) CHS). The solubilized proteins were separated from the remaining membrane fraction by ultracentrifugation (100,000g, 45 min, 4°C) and loaded on a HisTrap 1 ml HP column (GE Healthcare). The column was washed successively with buffer D (50 mM Tris-HCl pH 7.4, 500 mM NaCl, 10% glycerol, 1 mM PMSF, 2 mM DTT, 50 mM imidazole, 0.1% (w/v) DDM, 0.01% (w/v) CHS), buffer D with 2 M NaCl, buffer D with 1 M sodium thyocianate, buffer D with 1% CHAPS, and finally buffer D alone. The proteins were eluted with buffer E (50 mM Tris-HCl pH 7.4, 150 mM NaCl, 300 mM imidazole, 0.1% DDM, 0.01% CHS). Imidazole was removed from the eluted fraction using a HiTrap 5 ml desalting column (GE Healthcare), purified proteins were quantified using the BCA assay (Pierce) and receptor integrity was analyzed by SDS-PAGE.</p>
+</div>
+
+<div id="section7" class="section toc-section"><a id="s2g" name="s2g" class="link-target" title="Purification of Free GST and GST-fused Central Part of GASP-1"></a>
+<h3>Purification of Free GST and GST-fused Central Part of GASP-1</h3>
+<a id="article1.body1.sec2.sec7.p1" name="article1.body1.sec2.sec7.p1" class="link-target"></a><p>Free GST or GST-fused central part of GASP-1 (AA 380–1073) were purified on an ÄKTApurifier (GE Healthcare) using a GSTrap 4B 1 ml column (GE Healthcare) according to the instructions from the manufacturer. Proteins were eluted with a buffer containing 50 mM Tris-HCl pH 8.0 and 10 mM reduced glutathione. The buffer was finally exchanged for 50 mM Tris-HCl pH 8.0 and glycerol 10% using a HiTrap 5 ml desalting column (GE Healthcare). Purified proteins were quantified using the BCA assay (Pierce), analyzed by SDS-PAGE and stored at −80°C.</p>
+</div>
+
+<div id="section8" class="section toc-section"><a id="s2h" name="s2h" class="link-target" title="SPR Measurements"></a>
+<h3>SPR Measurements</h3>
+<a id="article1.body1.sec2.sec8.p1" name="article1.body1.sec2.sec8.p1" class="link-target"></a><p>A Biacore X100 SPR instrument (GE Healthcare) equilibrated to 25°C and equipped with a Sensor Chip CM5 (GE Healthcare) was used for all SPR measurements.</p>
+<a id="article1.body1.sec2.sec8.p2" name="article1.body1.sec2.sec8.p2" class="link-target"></a><p>Affinity purified polyclonal anti-GST antibody (GE Healthcare) was covalently immobilized in two flow cells using Amine Coupling Kit (GE Healthcare) with a running buffer containing 10 mM HEPES pH 7.4, 150 mM NaCl, 0.05% Surfactant P-20 (GE Healthcare) and 3 mM EDTA and a flow rate of 5 µl/min. 50 µg/ml antibody in 10 mM sodium acetate pH 5.0 was injected for 5 min to a surface activated by a 7 min injection of a 1∶1 mixture of 0.4 M 1-ethyl-3-(3-dimetrylaminopropyl) carbodiimide HCl and 0.1 M <em>N</em>-hydroxysuccinimide. The remaining active groups were deactivated by a 7 min injection of 1 M ethanolamine HCl pH 8.5. This procedure resulted in immobilization of more than 10000 resonance units (RU ≈ pg/mm<sup>2</sup> <a href="#pone.0056336-Stenberg1" class="ref-tip">[17]</a>) of anti-GST antibody.</p>
+<a id="article1.body1.sec2.sec8.p3" name="article1.body1.sec2.sec8.p3" class="link-target"></a><p>Capture and binding experiments were performed with a running buffer containing 50 mM Tris-HCl pH 7.4, 150 mM NaCl, 0.1% DDM, and 0.01% CHS. Each binding cycle started with capture of GST in the first flow cell by a 0.5–1 min injection of 12.5 nM GST, followed by a 0.5–1 min injection of 94 nM of GST-tagged central domain of GASP-1 in the second flow cell and ended with regeneration by a 2 min injection of 10 mM glycine-HCl pH 2, all at a flow rate of 10 µl/min. Typical capture densities were 50–150 Resonance Units (RU) for GST and 100–200 RU for the central domain of GASP-1. No significant dissociation of the captured proteins was observed in the experimental time frame.</p>
+<a id="article1.body1.sec2.sec8.p4" name="article1.body1.sec2.sec8.p4" class="link-target"></a><p>For saturation binding, a range of ADRB2 or CNR2 concentrations were injected after GST and GASP capture. For peptide competition, a fixed concentration of ADRB2 and CNR2 was mixed with a range of GASP peptide or control peptide concentrations and incubated for at least 1 h before injection. Several blank cycles were included for all samples. For the competition curves, an additional blank injection with the appropriate concentration of peptide was injected just before the injection of the peptide and receptor mixture. For all sample injections, the contact time was 3 min, the dissociation phase was 3 min, and the flow rate was 30 µl/min.</p>
+<a id="article1.body1.sec2.sec8.p5" name="article1.body1.sec2.sec8.p5" class="link-target"></a><p>The binding curves were double referenced by (i) subtraction of the signal from the GST captured flow cell from the signal of the flow cell with captured central domain of GASP-1 and (ii) subtraction of the appropriate blank injection from the receptor injections with or without peptide <a href="#pone.0056336-Myszka1" class="ref-tip">[18]</a>. The curves were adjusted for the slightly decreasing GASP capture density during a binding series (20–40 RU from the first to the last GASP capture) by normalization to the response from the first GASP capture. The high peptide concentrations resulted in large spikes at the beginning and end of each injection; these points were clearly artifacts and they were removed for presentation purposes. Endpoint responses were read 20 s after injection end.</p>
+<a id="article1.body1.sec2.sec8.p6" name="article1.body1.sec2.sec8.p6" class="link-target"></a><p>The double-referenced dose-response curves were fitted with Biacore X100 Evaluation Software 2.0.1 (GE Healthcare). The dissociation phases were first fitted separately to a one-to-one binding model to obtain the dissociation rate constants. The association and dissociation phases were then fitted simultaneously to a model with two parallel independent one-to-one reactions (heterogeneous ligand), with the dissociation rate constants fixed to the single value found by fitting of the dissociation phases separately. The mass transport contribution was negligible in both data sets. The two association rate constants obtained from these fits were used to estimate the affinity ranges. All curves were fitted by global analysis <a href="#pone.0056336-Myszka1" class="ref-tip">[18]</a>.</p>
+</div>
+
+<div id="section9" class="section toc-section"><a id="s2i" name="s2i" class="link-target" title="Co-immunoprecipitation Experiments"></a>
+<h3>Co-immunoprecipitation Experiments</h3>
+<a id="article1.body1.sec2.sec9.p1" name="article1.body1.sec2.sec9.p1" class="link-target"></a><p>HEK293 cells stably expressing N-terminal GFP-tagged ADRB1, ADRB2, CALCR and M<sub>1</sub> or MyrPalm-mYFP were transfected with pcDNA3.1 containing the sequence for a central domain of GASP-1 (AA 380 to 1073) using JetPEI reagent (polyplus transfection) according to the instructions from the manufacturer. After 48 h of expression, cells were washed twice with PBS and lysed in a buffer containing 10 mM Tris-HCl, pH 7.4, 150 mM NaCl, 25 mM KCl, 0.3% Triton X-100 and cOmplete protease inhibitors (Roche) for 1 h at 4°C under agitation. 500 µg of cleared lysates were incubated with 1 µg of a mouse monoclonal anti-GFP antibody (Invitrogen) overnight at 4°C, followed by an incubation with 40 µl of protein A-Sepharose beads for an additional 2 h at 4°C. Beads were then washed five times in lysis buffer and precipitates were resolved on an 8% gel by SDS–PAGE and electrotransferred to immobilon-P membranes (Millipore) in 50 mM Tris-boric acid for 1 h at 300 mA. Membranes were blocked with 5% non-fat powder milk in TBS-Tween (50 mM Tris-HCl pH 8, 150 mM NaCl, 0.4% Tween-20) for 1 h at room temperature. Detection of GFP-tagged receptors was performed by a 2 h incubation of the blots with goat anti-GFP coupled to horseradish peroxidase-conjugated antibody (Abcam; 1∶10,000). For GASP detection, blots were incubated for 1 h with anti-GASP polyclonal serum from rabbit (1∶2,500) and for 1 h with HRP-conjugated anti-rabbit antibody (New England Biolabs; 1∶5,000). For immunodetection of GASP or GFP-tagged receptors directly from cell lysates, 10 µg of proteins were loaded on SDS gels and analyzed following the procedure described above. Finally, membranes were washed in TBS-Tween and detected by chemiluminescence (ECL prime, GE Healthcare).</p>
+</div>
+</div>
+
+<div id="section3" class="section toc-section"><a id="s3" name="s3" data-toc="s3" class="link-target" title="Results"></a><h2>Results</h2>
+<div id="section1" class="section toc-section"><a id="s3a" name="s3a" class="link-target" title="GASPs form a Family of G Protein-coupled Receptor Interacting Proteins"></a>
+<h3>GASPs form a Family of G Protein-coupled Receptor Interacting Proteins</h3>
+<a id="article1.body1.sec3.sec1.p1" name="article1.body1.sec3.sec1.p1" class="link-target"></a><p>In our previous study we have shown that GASP-1 and GASP-2 interact with the carboxyl-terminal domain of several GPCRs. Based on sequence homology searches, we identified eight additional members of the GASP family (<a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-AbuHelo1" class="ref-tip">[13]</a>; <a href="#pone-0056336-g001">Figure 1</a>). All members display sequence similarities in their carboxyl-terminal domain (last 250 amino acids) and the first five members contain a repeated motif of 15 amino acids outside this domain, that we named the GASP motif (<a href="#pone-0056336-g001">Figure 1</a>). Moreover, a crosswise comparison of the conserved carboxyl-terminal domain of the different members of the GASP family revealed very high sequence similarities between GASP-1 and GASP-2 as well as high similarities between GASP-6, -7, -8 and -9 (<a href="#pone.0056336.s001">Figure S1</a>). Although GASP-1 and GASP-2 have been shown to interact with GPCRs <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>, <a href="#pone.0056336-Heydorn1" class="ref-tip">[10]</a>, there is no experimental evidence showing that the other members of the GASP family also interact with these receptors. In order to examine this possibility we performed GST-pull down experiments with radiolabelled GASP-1, -2, -3, -6, -7, and -9 and the cytoplasmic C-tail of twelve GPCRs fused to GST (<a href="#pone.0056336.s002">Figure S2</a>), all comprising the helix 8 that was shown to be critically involved in the interaction with GASP-1. As controls, we used free GST and GST-fused C-tails of the type III transforming growth factor β receptor (TGF<sub>β</sub>) and the insulin growth factor I receptor (IGF<sub>1</sub>), which are non-GPCR receptors. Equivalent amounts of radiolabelled GASPs were incubated with saturating concentrations of GST-fused receptor C-tails immobilized on glutathione-sepharose beads. Radiolabelled proteins that were retained by receptor C-tails were then analyzed by SDS-PAGE and quantified by Phosphor-imaging. As shown in <a href="#pone-0056336-g002">Figure 2</a>, the two non-GPCR receptor C-tails (TGF<sub>β</sub> and IGF<sub>1</sub>) did not interact with any GASPs (<a href="#pone-0056336-g002">Figure 2A–B</a>). Although sometimes weak, we observed significant interactions of the tested GASPs with several GPCR C-tails.</p>
+<a class="link-target" id="pone-0056336-g001" name="pone-0056336-g001"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g001"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g001" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g001"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g001" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g001">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g001">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g001">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g001">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g001">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g001">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 1. </span> Schematic comparison of GASP family members.</div><p class="caption_target"><a id="article1.body1.sec3.sec1.fig1.caption1.p1" name="article1.body1.sec3.sec1.fig1.caption1.p1" class="link-target"></a><p>Black boxes represent the conserved carboxyl-terminal domain of 250 amino acids. The percentage of identical amino acids shared with GASP-1 is indicated within each box. Small grey boxes represent a highly conserved motif of 15 amino acids that is repeated 22 times in GASP-1 and two times in GASP-2 to -5. The consensus sequence of this motif is: (E/D/G) (E/D) E X (I/L/V/S/T) (I/V/A/F) (G/N) (S/T) W F W (A/V/T/S/D/E) (G/E/R) (E/D/K) (E/D/K/A/Q). For GASP-2, two regions showing significant sequence homology with GASP-1 are separated by a gap represented by dotted lines. GASPs accession numbers from SPtrEMBL database are indicated on the left of the figure.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g001">
+              https://doi.org/10.1371/journal.pone.0056336.g001</a></p></div><a class="link-target" id="pone-0056336-g002" name="pone-0056336-g002"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g002"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g002" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g002"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g002" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g002">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g002">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g002">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g002">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g002">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g002">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 2. </span> GST-pull down experiments with radiolabelled GASP-1, -2, -3, -6, -7 and -9 and GST-fused receptor C-tails.</div><p class="caption_target"><a id="article1.body1.sec3.sec1.fig2.caption1.p1" name="article1.body1.sec3.sec1.fig2.caption1.p1" class="link-target"></a><p><em>A,</em> GASP-1, -2 and -3 showed medium to strong interactions with some GPCR C-tails but no interaction was detected with the two one-transmembrane receptor C-tails (TGF<sub>β</sub> and IGF<sub>1</sub>). <em>B,</em> GASP-7 showed weak to medium interactions with some GPCR C-tails. GASP-6 and -9 showed very weak interactions with all tested receptors. No interaction was detected with TGF<sub>β</sub> and IGF C-tails. Data were quantified by Phosphor-imaging. Results are shown as percent of the [<sup>35</sup>S]-GASPs input retained by the GST-fused receptor C-tails and correspond to the mean ± S.E.M of three independent experiments. Lower panels correspond to representative gel images. 5HT<sub>7</sub>, 5-hydroxytryptamine 7 receptor; ADRB1, β<sub>1</sub> adrenergic receptor; CALCR, calcitonin receptor; DOR, δ-opioid receptor; FZ<sub>4</sub>, frizzled 4 receptor; H<sub>2</sub>, histamine 2 receptor; IGF<sub>1</sub>, insulin growth factor I receptor; KOR, κ-opioid receptor; M<sub>1</sub>, muscarinic M<sub>1</sub> acetylcholine receptor; M<sub>2</sub>, muscarinic M<sub>2</sub> acetylcholine receptor; MOR, µ-opioid receptor; ORL<sub>1</sub>, opioid receptor-like 1; TXA<sub>2</sub>, α isoform of the thromboxane A<sub>2</sub> receptor; TGF<sub>β</sub>, type III transforming growth factor β receptor.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g002">
+              https://doi.org/10.1371/journal.pone.0056336.g002</a></p></div><a id="article1.body1.sec3.sec1.p2" name="article1.body1.sec3.sec1.p2" class="link-target"></a><p>Based on their interactions with the C-tail of GPCRs, we identified two GASP subfamilies. The first subfamily, including GASP-1, -2, and -3, displayed strong interaction (&gt;10% of GASP input) with most GPCR C-tails tested (<a href="#pone-0056336-g002">Figure 2A</a>). The best GPCR interacting partners were the β<sub>1</sub> adrenergic receptor (ADRB1), the calcitonin receptor (CALCR), and the α isoform of the thromboxane A<sub>2</sub> receptor (TXA<sub>2</sub>), which all retained from 30% to 50% of GASP inputs. Furthermore, the atypical frizzled 4 receptor (FZ<sub>4</sub>) also displayed strong interaction with GASP-1 and GASP-3. The other GPCRs displayed medium to low interaction levels (&lt;10% of GASP input). Among the opioid receptors, only DOR showed significant interactions with GASP-1, as shown earlier <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>. The second subfamily, including GASP-6, -7, and -9, showed weak (GASP-7) to very weak (GASP-6 and -9) interactions with GPCR C-tails (<a href="#pone-0056336-g002">Figure 2B</a>). The best interacting partners for GASP-7 were muscarinic M<sub>1</sub> acetylcholine receptor (M<sub>1</sub>), ADRB1, CALCR, TXA<sub>2</sub> and FZ<sub>4</sub> that retained from 6% to 10% of the GASP-7 input. Some receptor C-tails, including DOR, M<sub>1</sub>, ADRB1, CALCR, histamine H<sub>2</sub> receptor and TXA<sub>2,</sub> retained around 2% of GASP-6 or GASP-9 inputs, while controls retained less than 1% of both inputs.</p>
+<a id="article1.body1.sec3.sec1.p3" name="article1.body1.sec3.sec1.p3" class="link-target"></a><p>Altogether, these results show that in addition to GASP-1 and -2, other members of the GASP family can interact with a wide range of GPCR C-tails. As describe in <a href="#pone-0056336-g001">Figure 1</a>, members of the GASP subfamily 1 contain 22 (GASP-1) or 2 repeated (GASP-2 to -5) GASP motif. Combined with the fact that subfamily 1 displays a higher level of interaction with GPCR C-tails compared to subfamily 2, this observation prompted us to investigate the significance of the GASP motif in the interaction with GPCRs.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="s3b" name="s3b" class="link-target" title="Two Regions of GASP-1 are Involved in the Interaction with the C-tail of GPCRs"></a>
+<h3>Two Regions of GASP-1 are Involved in the Interaction with the C-tail of GPCRs</h3>
+<a id="article1.body1.sec3.sec2.p1" name="article1.body1.sec3.sec2.p1" class="link-target"></a><p>In a previous study, we have shown that the carboxyl-terminal region of GASP-1, corresponding to AA 924 to 1395, displays a strong interaction with the DOR C-tail <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>. Within this region, a 250 AA carboxyl-terminal domain displays high sequence similarities with the other GASPs (<a href="#pone-0056336-g001">Figure 1</a>). We therefore hypothesized that this conserved carboxyl-terminal domain could be critical for the interaction of GASPs with GPCRs. To test this hypothesis, we assessed the interaction of three GPCR C-tails, DOR, ADRB1 and M<sub>1</sub>, that display medium to strong interaction with GASPs (<a href="#pone-0056336-g002">Figure 2A</a>), with truncated mutants of GASP-1 in GST-pull down experiments.</p>
+<a id="article1.body1.sec3.sec2.p2" name="article1.body1.sec3.sec2.p2" class="link-target"></a><p>In a first set of experiments, we tested three truncated mutants of GASP-1: mutant 380–1395 that lacks the N-terminal part, mutant 1025–1395 corresponding to the conserved C-terminal domain, and mutant 380–1073 corresponding to a central portion of GASP-1 that contains 19 GASP motif. As shown in <a href="#pone-0056336-g003">Figure 3A</a>, DOR, ADRB1 and M<sub>1</sub> C-tails interacted similarly with full-length GASP-1 and mutant 380–1395, indicating that the N-terminal portion of GASP-1 is not implicated in the interaction with GPCRs. Unexpectedly, the conserved C-terminal domain did not display detectable interactions with the ADRB1 or M<sub>1</sub> C-tails and interacted only weakly with DOR. Conversely, the central domain of GASP-1 retained around 70% of interaction with ADRB1 and M<sub>1</sub> C-tails and 30% with DOR. These data suggest that the central domain of GASP-1 is necessary and sufficient for the interaction with ADRB1 and M<sub>1</sub> receptors, while both the central and C-terminal domains of GASP-1 are important for the interaction with DOR.</p>
+<a class="link-target" id="pone-0056336-g003" name="pone-0056336-g003"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g003"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g003" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g003"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g003" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g003">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g003">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g003">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g003">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g003">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g003">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 3. </span> Two portions of GASP-1 are implicated in the interaction with GPCRs.</div><p class="caption_target"><a id="article1.body1.sec3.sec2.fig1.caption1.p1" name="article1.body1.sec3.sec2.fig1.caption1.p1" class="link-target"></a><p><em>A,</em> GST-pull down experiments with three truncated mutants of GASP-1 and DOR, ADRB1 and M<sub>1</sub> C-tails. Deletion analysis revealed the critical role played by the central part of GASP-1 (380–1073) in the interaction with the DOR, ADRB1 and M<sub>1</sub> C-tails and especially with ADRB1 and M<sub>1</sub>. Surprisingly, the conserved carboxyl-terminal part of GASP-1 (1025–1395) displayed no significant interaction with these receptor C-tails, except DOR for which a 25% interaction was observed. <em>B,</em> GST-pull down experiments with additional truncated mutants of GASP-1 and DOR C-tail. Detailed deletion analysis showed that the interaction with DOR C-tail required the entire carboxyl-terminal part as well as the central part of GASP-1. Results are represented as percent of the full-length GASP-1 interaction and correspond to the mean ± S.E.M of three independent experiments.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g003">
+              https://doi.org/10.1371/journal.pone.0056336.g003</a></p></div><a id="article1.body1.sec3.sec2.p3" name="article1.body1.sec3.sec2.p3" class="link-target"></a><p>In order to delineate more precisely which regions of GASP-1 are important for the interaction with DOR, we evaluated the interaction of the DOR C-tail with four additional truncated mutants of GASP-1 (<a href="#pone-0056336-g003">Figure 3B</a>). The first two were derived from mutant 1025–1395 by extension with 50 or 100 AA at the N-terminus to include one or two GASP motifs (mutants A and B) and the other two were derived from mutant 924–1395, which contains 2 GASP motifs, by deletion of 45 or 95 AA from the C-terminus (mutants C and D). When incubated with DOR C-tail, mutants A and B displayed increasing interaction compared to the C-terminal domain of GASP-1, which were similar to those obtained with full-length GASP-1. Mutant C displayed strong interaction as well, while it was completely lost with mutant D. Altogether, these results indicate that the GASP motifs from the central domain are important to warrant full interaction with DOR and that the integrity of the GASP-1 carboxyl-terminal portion is required for this interaction. From these results we identified two types of interactions between GPCRs and GASP-1: some GPCRs interact exclusively with the central part of GASP-1 (e.g. ADRB1 and M<sub>1</sub>), while others interact with the central and the carboxyl-terminal portions of GASP-1, like DOR.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="s3c" name="s3c" class="link-target" title="Purified Full-length Receptors Bind dose-dependently to the Central Domain of GASP-1"></a>
+<h3>Purified Full-length Receptors Bind dose-dependently to the Central Domain of GASP-1</h3>
+<a id="article1.body1.sec3.sec3.p1" name="article1.body1.sec3.sec3.p1" class="link-target"></a><p>In order to further characterize the importance of the central part of GASP-1 for the interaction with GPCRs, we evaluated the interactions between a central domain of GASP-1 (AA 380 to 1073), which contains 19 GASP motifs, and two purified full-length GPCRs: the β<sub>2</sub> adrenergic receptor (ADRB2) and the cannabinoid receptor type 2 (CNR2). We first showed that the C-tails of these two receptors interact with GASP-1 in GST Pull-down experiments and that the central domain of GASP-1 is mandatory and sufficient for this interaction (<a href="#pone-0056336-g004">Figure 4A</a>), which is in agreement with previous observation for ADRB1 and M1 (<a href="#pone-0056336-g003">Figure 3A</a>).</p>
+<a class="link-target" id="pone-0056336-g004" name="pone-0056336-g004"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g004"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g004" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g004"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g004" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g004">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g004">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g004">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g004">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g004">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g004">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 4. </span> Purified full-length GPCRs dose-dependently bind to the central domain of GASP-1 in SPR experiments.</div><p class="caption_target"><a id="article1.body1.sec3.sec3.fig1.caption1.p1" name="article1.body1.sec3.sec3.fig1.caption1.p1" class="link-target"></a><p><em>A</em>, Interaction of the central domain of GASP-1 compared to the full-length protein with GST-fused ADRB2 and CNR2 C-tails by GST pull down experiments. The results show that both receptors interact <em>in vitro</em> with GASP-1 and that the central part of GASP-1 is strongly involved in the interaction with ADRB2 and CNR2. <em>B</em>, Binding of a range of concentrations of ADRB2 to the central domain of GASP-1. <em>C</em>, Binding of a range of concentrations of CNR2 to the central domain of GASP-1. Overall, we observed a dose-dependent binding of ADRB2 and CNR2 with the central domain of GASP-1. The receptor concentrations are indicated on the figures. All curves are double referenced and corrected for changes in capture density of the central domain of GASP-1. ADRB2, β<sub>2</sub> adrenergic receptor; CNR2, cannabinoid receptor type 2.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g004">
+              https://doi.org/10.1371/journal.pone.0056336.g004</a></p></div><a id="article1.body1.sec3.sec3.p2" name="article1.body1.sec3.sec3.p2" class="link-target"></a><p>Both ADRB2 and CNR2 full-length receptors were produced in <em>P. pastoris</em> and purified as previously described <a href="#pone.0056336-Andre1" class="ref-tip">[15]</a>, <a href="#pone.0056336-Bornert1" class="ref-tip">[16]</a>, while GST-tagged central domain of GASP-1 was purified from BL21 <em>E. coli</em> strain (<a href="#pone.0056336.s003">Figure S3</a>). Biacore SPR was used to monitor the binding of GPCRs to GASP-1 in real-time and thus to determine the kinetics and the affinity of the GASP-1–GPCR interactions. The GST-tagged central domain of GASP-1 was first captured with anti-GST antibodies immobilized on a CM5 sensor chip. As a control, free GST was captured in another flow cell of the sensor chip. A range of concentrations of the purified GPCRs was then injected in both flow cells and the interaction was monitored as a function of time. All curves were double referenced by subtraction of the signal from the GST and from the buffer of receptor injections. Using this set-up we observed dose-dependent binding of ADRB2 and CNR2 to the central domain of GASP-1 (<a href="#pone-0056336-g004">Figure 4B–C</a>). The kinetics of the two interactions were very similar: both interactions were very stable and had a slow association rate. For both sets of binding curves, we found complex kinetics in the association phase and a unimodal dissociation phase (<a href="#pone.0056336.s004">Figure S4</a>). Analysis of the dissociation phases showed a dissociation rate constant of <em>k</em><sub>d</sub> = 4.5±0.1×10<sup>−4</sup> s<sup>−1</sup> for ADRB2 and <em>k</em><sub>d</sub> = 6.5±0.1×10<sup>−4</sup> s<sup>−1</sup> for CNR2. The complex association phases did not allow accurate determination of the association rate constants, but we estimated the dissociation constant <em>K</em><sub>d</sub> to be in the ranges ∼ 14–140 nM for ADRB2 and ∼ 5–50 nM for CNR2.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="s3d" name="s3d" class="link-target" title="The Central Domain of GASP-1 Interacts with GPCRs in Cells"></a>
+<h3>The Central Domain of GASP-1 Interacts with GPCRs in Cells</h3>
+<a id="article1.body1.sec3.sec4.p1" name="article1.body1.sec3.sec4.p1" class="link-target"></a><p>To confirm the relevance of our previous observations we sought to examine the interaction between different GPCRs and the central domain of GASP-1 in a cellular context. To this purpose we performed co-immunoprecipitation experiments from HEK cells stably expressing GFP-tagged ADRB1, ADRB2, CALCR or M<sub>1</sub> receptor, transfected with the central domain of GASP-1 (AA 380-1073). As expected, the four GFP-tagged GPCRs where mainly localized at the plasma membrane while the central domain of GASP-1 displayed a cytoplasmic distribution that was similar to that observed for the full length GASP-1 <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>. As shown in <a href="#pone-0056336-g005">Figure 5</a>, the central domain of GASP-1 co-immunoprecipitated with the four different GPCRs but not with myristoylated-palmitoylated mYFP (MyrPalm-mYFP), which is targeted to the plasma membrane and particularly enriched in lipid rafts where GPCRs are also preferentially targeted <a href="#pone.0056336-Zacharias1" class="ref-tip">[19]</a>. These data demonstrated that the central part of GASP-1 displays binding activity for full length GPCRs in a cellular context, thus confirming the relevance of our <em>in vitro</em> measurements with carboxyl-terminal tails or purified receptors.</p>
+<a class="link-target" id="pone-0056336-g005" name="pone-0056336-g005"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g005"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g005" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g005"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g005" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g005">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g005">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g005">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g005">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g005">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g005">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 5. </span> The central domain of GASP-1 co-immunoprecipitates with GPCRs in cells.</div><p class="caption_target"><a id="article1.body1.sec3.sec4.fig1.caption1.p1" name="article1.body1.sec3.sec4.fig1.caption1.p1" class="link-target"></a><p>The central domain of GASP-1 (amino-acids 380 to 1073 of GASP-1 in pcDNA3.1) was transiently transfected in HEK293 cells stably expressing GFP-tagged ADRB1, ADRB2, CALCR or M<sub>1</sub> receptor. HEK293 cells stably expressing MyrPalm-mYFP and transiently transfected with the central domain of GASP-1 were used as a negative control. The central domain of GASP-1 co-immunoprecipitated with the four different GPCRs while no co-immunoprecipation was observed in cells expressing the central domain of GASP-1 alone or co-expressing this domain with myristoylated-palmitoylated mYFP (MyrPalm-mYFP).</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g005">
+              https://doi.org/10.1371/journal.pone.0056336.g005</a></p></div></div>
+
+<div id="section5" class="section toc-section"><a id="s3e" name="s3e" class="link-target" title="The GASP Motif is Critical for the Interaction of GASPs with GPCRs"></a>
+<h3>The GASP Motif is Critical for the Interaction of GASPs with GPCRs</h3>
+<a id="article1.body1.sec3.sec5.p1" name="article1.body1.sec3.sec5.p1" class="link-target"></a><p>Results obtained with GASP-1 truncated mutants, SPR and co-immunoprecipation experiments pointed to the GASP motifs from the central domain of GASP-1 as critical elements for interaction with GPCRs. This conserved motif is also present twice in the corresponding central parts of GASP-2 to GASP-5, thus suggesting that it could also play an important role in the interaction between GPCRs and these GASP subfamily members. Thus, we evaluated the interaction of truncated GASP-2 mutants with GST-fused ADRB1, M<sub>1</sub>, and CALCR C-tails, for which we had previously shown a strong interaction with full-length GASP-2 (see <a href="#pone-0056336-g002">Figure 2</a>). As shown in <a href="#pone-0056336-g006">Figure 6A</a>, mutant 377–838, resulting from deletion of the N-terminal part of GASP-2 (upstream from the first repeated motif), displayed interaction with all three receptor C-tails ranging from 30% to 60% compared to the full-length GASP-2. Conversely, mutant 470–838, corresponding to the C-terminal domain of GASP-2, displayed almost no interaction with the three GPCR C-tails tested (<a href="#pone-0056336-g006">Figure 6A</a>). As it was observed for GASP-1, these results suggested that the central portion and the two GASP motifs of GASP-2 are important for its interaction with GPCRs.</p>
+<a class="link-target" id="pone-0056336-g006" name="pone-0056336-g006"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g006"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g006" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g006"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g006" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g006">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g006">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g006">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g006">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g006">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g006">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 6. </span> The GASP motif is critical for the interaction of GASP-2 with GPCRs.</div><p class="caption_target"><a id="article1.body1.sec3.sec5.fig1.caption1.p1" name="article1.body1.sec3.sec5.fig1.caption1.p1" class="link-target"></a><p><em>A,</em> GST-pull down experiments with two truncated mutants of GASP-2 and ADRB1, M<sub>1</sub> and CALCR C-tails. Grey boxes represent the 15 AA GASP motifs. Deletion analysis revealed that the central domain of GASP-2, which contains the two GASP motifs, is critical for the interaction between GASP-2 and ADRB1, M<sub>1</sub> and CALCR C-tails. <em>B,</em> GST-pull down experiments with full-length GASP-2 where one (GASP2-m1 and GASP2-m2) or both GASP motifs (GASP2-dm) were mutated. Grey boxes represent the wild-type motifs and X represent the mutant motifs. Consensus sequences are given for wild-type and mutant motifs. Mutated amino acids are underlined. Site directed mutagenesis analysis of these two repeated motifs showed that they played a crucial role in the interaction of GASP-2 with the three receptor C-tails tested here. Results are shown as percent of the wild-type GASP-2 interaction and correspond to the mean ± S.E.M of three independent experiments.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g006">
+              https://doi.org/10.1371/journal.pone.0056336.g006</a></p></div><a id="article1.body1.sec3.sec5.p2" name="article1.body1.sec3.sec5.p2" class="link-target"></a><p>In a second step, we focused on the two GASP motifs of GASP-2. As shown in <a href="#pone-0056336-g006">Figure 6B</a>, we replaced the four most conserved residues from these motifs (SWFW) by alanines, either individually (GASP2-m1 and GASP2-m2) or in combination (GASP2-dm). The resulting mutants were probed for their interaction with ADRB1, M<sub>1</sub>, and CALCR C-tails: compared to wild-type GASP-2, both GASP2-m1 and -m2 displayed a strong decrease in their interaction with ADRB1 and M<sub>1</sub> C-tails, but they retained around 70% interaction with CALCR. For the double mutant, GASP2-dm, almost no interaction was detected with the ADRB1 and M<sub>1</sub> C-tails and a weak interaction was measured with the CALCR C-tail. Altogether, these results indicated that the GASP motif plays a crucial role in the interaction between GASP-2 and GPCRs. Interestingly, site directed mutagenesis experiments pointed to the highly conserved SWFW sequence within the GASP motif as a key element for interaction with GPCR C-tails.</p>
+</div>
+
+<div id="section6" class="section toc-section"><a id="s3f" name="s3f" class="link-target" title="A Small Synthetic Peptide Derived from the GASP Motif is Capable of Disrupting Interactions between GASPs and GPCRs"></a>
+<h3>A Small Synthetic Peptide Derived from the GASP Motif is Capable of Disrupting Interactions between GASPs and GPCRs</h3>
+<a id="article1.body1.sec3.sec6.p1" name="article1.body1.sec3.sec6.p1" class="link-target"></a><p>We further investigated whether small synthetic peptides containing the GASP motif could compete with GASPs for interaction with GPCRs. In a first step, we performed competition experiments with a synthetic peptide of 24 amino acids containing the first GASP motif of GASP-2 (GASP peptide). Peptide concentrations ranging from 1 to 250 µM were tested for their capacity to disrupt the interaction between ADRB1 C-tail and GASP-2. As shown in <a href="#pone-0056336-g007">Figure 7A</a>, increasing amounts of peptide led to a decrease in the amount of GASP-2 that was retained by the ADRB1 C-tail, while addition of the highest dose of a scrambled peptide did not affect this interaction. Inhibitions of 65±6% and 76±6% were obtained with 100 µM and 250 µM GASP peptide, respectively.</p>
+<a class="link-target" id="pone-0056336-g007" name="pone-0056336-g007"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g007"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g007" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g007"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g007" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g007">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g007">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g007">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g007">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g007">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g007">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 7. </span> A small synthetic peptide derived from the GASP motif of GASP-2 blocks the interaction between GASPs and GPCR C-tails in GST-pull down experiments.</div><p class="caption_target"><a id="article1.body1.sec3.sec6.fig1.caption1.p1" name="article1.body1.sec3.sec6.fig1.caption1.p1" class="link-target"></a><p>A, GASP peptide competes for the interaction between GASP-2 and GST-fused ADRB1 C-tail. The scrambled peptide displayed no significant effect on the interaction between GASP-2 and ADRB1. <em>B,</em> A fixed concentration of GASP peptide (150 µM) inhibits the interaction between GASP-1, -2 or -7 with ADRB1 C-tail, but not the scrambled peptide. <em>C,</em> Phosphor-imaging quantification of the competition experiments for the interaction between GASP-1, -2 and -7 and four different receptor C-tails with GASP peptide. A fixed concentration of GASP peptide (150 µM) strongly inhibited interactions of GASPs with ADRB1, M<sub>1</sub>, CALCR and TXA<sub>2</sub> C-tails. Results are represented as percent of the interaction between the corresponding GASPs and GPCRs in absence of peptide (mean ± S.E.M of three independent experiments).</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g007">
+              https://doi.org/10.1371/journal.pone.0056336.g007</a></p></div><a id="article1.body1.sec3.sec6.p2" name="article1.body1.sec3.sec6.p2" class="link-target"></a><p>In a second step, we used a single peptide concentration (150 µM) in competition experiments with four different receptor C-tails, ADRB1, M<sub>1</sub>, CALCR, and TXA<sub>2</sub>, and three different GASPs, GASP-1 and -2 that contain GASP motifs and GASP-7 that does not. <a href="#pone-0056336-g007">Figure 7B</a> displays a representative experiment for ADRB1 C-tail and the three GASPs. Addition of 150 µM GASP peptide almost completely prevented the interaction between GASP-1, -2, -7 and the ADRB1 C-tail, while scrambled peptide did not. Quantifications revealed that in the presence of 150 µM of GASP peptide, the four receptor C-tails retained between 6% and 35% of GASP-1, -2 and -7 compared to control values (<a href="#pone-0056336-g007">Figure 7C</a>). Altogether, these results confirmed that the GASP motif is mandatory for the interaction of GASPs with GPCRs. Moreover, the interaction between GASP-7, which does not exhibit the GASP motif, and GPCRs was also inhibited by the GASP peptide suggesting that the two GASP subfamilies (with or without GASP motif) most likely interact with the same region of the GPCR carboxyl-terminal domain but with a distinct mode of binding.</p>
+<a id="article1.body1.sec3.sec6.p3" name="article1.body1.sec3.sec6.p3" class="link-target"></a><p>Using SPR, we have shown that the central part of GASP-1 can efficiently interact with full-length ADRB2 and CNR2. In a second series of experiments, we examined whether the GASP peptide could also compete with binding of full-length receptors to the central domain of GASP-1. A single concentration of purified ADRB2 or CNR2 were preincubated with different concentrations of peptide before injecting the mixture to a surface with central domain of GASP-1 prepared the same way as for the dose-response experiments (<a href="#pone-0056336-g004">Figure 4</a>). Signals from free GST and from buffer injections were subtracted from the curves. As expected from GST-pull down competition experiments (<a href="#pone-0056336-g007">Figure 7</a>), preincubation with 250 µM GASP peptide strongly decreased the binding of both receptors to the central domain of GASP-1 (<a href="#pone-0056336-g008">Figure 8A–B</a>). This competition was dose-dependent with an IC<sub>50</sub> estimated to be around 100 µM (<a href="#pone-0056336-g008">Figure 8C</a>). In contrast, a control peptide where the conserved SWFW motif was changed to AAAA only had a minor effect on the interaction (<a href="#pone-0056336-g008">Figure 8</a>). Overall, these results indicate that the interaction between GPCRs and the central part of GASP-1 is specific and that the GASP motifs in the central domain are critical for the interaction with GPCRs.</p>
+<a class="link-target" id="pone-0056336-g008" name="pone-0056336-g008"></a><div class="figure" data-doi="10.1371/journal.pone.0056336.g008"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0056336.g008" data-doi="info:doi/10.1371/journal.pone.0056336" data-uri="info:doi/10.1371/journal.pone.0056336.g008"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0056336.g008" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g008">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0056336.g008">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g008">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0056336.g008">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g008">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0056336.g008">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 8. </span> GASP peptide prevents receptor binding to the central domain of GASP-1 in SPR experiments.</div><p class="caption_target"><a id="article1.body1.sec3.sec6.fig2.caption1.p1" name="article1.body1.sec3.sec6.fig2.caption1.p1" class="link-target"></a><p><em>A</em>, Binding of 1.1 µM ADRB2 alone or preincubated with either 250 µM GASP peptide or 250 µM control peptide to captured central domain of GASP-1. <em>B</em>, Binding of 0.30 µM CNR2 alone or preincubated with either 250 µM GASP peptide or 250 µM control peptide to captured central domain of GASP-1. All curves are double referenced and corrected for changes in captured GASP density. <em>C</em>, Endpoint responses from competition binding curves for 1.1 µM ADRB2 preincubated with a range of concentrations of either GASP peptide (▪) or control peptide (•) and 0.30 µM CNR2 preincubated with either GASP peptide (□) or control peptide (○). The responses are normalized to the endpoint response from an injection with receptor only (0 µM peptide).</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0056336.g008">
+              https://doi.org/10.1371/journal.pone.0056336.g008</a></p></div></div>
+
+<div id="section7" class="section toc-section"><a id="s3g" name="s3g" class="link-target" title="Conclusions"></a>
+<h3>Conclusions</h3>
+<a id="article1.body1.sec3.sec7.p1" name="article1.body1.sec3.sec7.p1" class="link-target"></a><p>In our previous study we have identified a novel family of proteins from which the two first members, GASP-1 and GASP-2, interact with GPCRs <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>. We provide here the first evidence that other members of the GASP family can also interact with the C-tail of GPCRs. Although some members, including GASP-6 and GASP-9, displayed very weak level of interaction (about 1% to 2% of the GASPs input), it was significantly higher than non-specific interaction that was observed with GST alone or some receptor C-tails fused to GST, such as MOR or TGF<sub>β</sub>. As GASP-1 has been shown to modulate the postendocytic sorting of some GPCRs, our results raise the possibility that other GASPs could be implicated in similar functions, thus adding another level of complexity in agonist-induced intracellular trafficking of GPCRs. A key issue will then be to define how the selectivity of interaction between GASPs and GPCRs is achieved in a cellular context.</p>
+<a id="article1.body1.sec3.sec7.p2" name="article1.body1.sec3.sec7.p2" class="link-target"></a><p>Among the receptor C-tails that we have tested, ADRB1 is the one that displays the highest level of interaction <em>in vitro</em> with GASP-1 and GASP-2. This result is in contrast with previous results showing a low interaction of GASP-1 with ADRB1 C-tail <a href="#pone.0056336-Heydorn1" class="ref-tip">[10]</a>. This discrepancy is most likely due to the fact that we used full-length GASPs to perform our experiments, while Heydorn and collaborators used a truncated form of GASP-1, corresponding to amino-acids 898 to 1395. When we performed GST-pull down experiments with a similar fragment of GASP-1 (corresponding to amino acids 924 to 1395), only 5% of the input was retained by the ADRB1 C-tail (data not shown), which is in agreement with the results of Heydorn et al. <a href="#pone.0056336-Heydorn1" class="ref-tip">[10]</a>. Therefore, our results suggest that the repertoire of GPCRs that interacts with GASP-1 could prove to be even larger than previously anticipated <a href="#pone.0056336-Heydorn1" class="ref-tip">[10]</a>.</p>
+<a id="article1.body1.sec3.sec7.p3" name="article1.body1.sec3.sec7.p3" class="link-target"></a><p>While numerous GPCRs have been shown to interact with GASP-1 <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>, <a href="#pone.0056336-Heydorn1" class="ref-tip">[10]</a>, little is known about the molecular mechanisms underlying the GASP-GPCR interaction. In the present study, we show that a small repeated motif of 15 AA present 22 times in GASP-1 and twice in GASP-2 to -5, is critical for the interaction of GASPs with GPCR. Previous studies have only focused on the conserved carboxyl-terminal region of the GASP family in the interaction with GPCRs <a href="#pone.0056336-Simonin1" class="ref-tip">[6]</a>, <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>, <a href="#pone.0056336-Heydorn1" class="ref-tip">[10]</a>. Although our results do not exclude a role of this region (see <a href="#pone-0056336-g003">Figure 3B</a>), they clearly show that this motif, that we named “GASP motif”, is mandatory for the interaction of GASPs from subfamily one with GPCRs and represents a new protein-protein interaction motif. These results, together with the fact that GASP-1 contains 22 GASP motifs, suggest that one GASP-1 molecule could interact with several receptors. Moreover, beside their interaction with GPCRs, recent studies have shown that different members of the GASP family can interact with several non-GPCR proteins, including growth factor receptors and ubiquitin ligases <a href="#pone.0056336-AbuHelo1" class="ref-tip">[13]</a>. It is therefore tempting to speculate that, like arrestins or multi-PDZ proteins, GASP-1 could function as an adaptor protein assembling GPCRs and other proteins in order to promote receptor function, signaling or trafficking. Further studies are required to evaluate the functional relevance of these interactions. Concerning GASPs from subfamily two that do not contain GASP motifs, although weaker, we also observed interactions <em>in vitro</em> with different GPCRs (<a href="#pone-0056336-g002">Figures 2</a> and <a href="#pone-0056336-g007">7</a>). Moreover, the interaction of GASP-7 with these different GPCRs was also blocked by a synthetic peptide containing a GASP motif (<a href="#pone-0056336-g007">Figure 7</a>). These data suggest that the two GASP subfamilies (with or without GASP motif) most likely interact with the same region within carboxyl-terminal domain of GPCRs but with a distinct mode of binding. Although the region within GASPs from subfamily 2 that promote the interaction with GPCRs remains to identify, we propose that the conserved carboxyl-terminal domain of the GASP family is involve in this interaction as it is in GASP-1 and DOR interaction (<a href="#pone-0056336-g003">Figures 3A and 3B</a>).</p>
+<a id="article1.body1.sec3.sec7.p4" name="article1.body1.sec3.sec7.p4" class="link-target"></a><p>In this study we have set up an assay to examine the interaction between immobilized GASP protein and detergent solubilized full-length GPCRs using SPR. This approach is well-suited for a quantitative study of the interactions between the GASP family of proteins and any GPCR, because (i) most soluble proteins can be expressed as GST fusion proteins and captured by anti-GST antibodies without disturbing their function, (ii) immobilization of GPCRs, which can easily impair their function <a href="#pone.0056336-Fruh1" class="ref-tip">[20]</a>, is avoided and (iii) a minimum of GPCR handling is required. Optical biosensors have previously been used to study the interaction between recombinant GPCRs and G proteins <a href="#pone.0056336-Alves1" class="ref-tip">[21]</a>–<a href="#pone.0056336-Komolov1" class="ref-tip">[24]</a>, but this is one of the first times that interactions between full-length GPCRs and another GPCR interacting protein are studied with such techniques. We have determined the dissociation rate constant for the interaction of the central domain of GASP-1 with full-length ADRB2 and CNR2 and estimated the affinity within an order or magnitude. The dissociation rate constants and the affinities of the two receptors are very close, indicating that the mode of interaction with the central domain of GASP-1 is similar. The slow dissociation constants (k<sub>d</sub> &lt;10<sup>−3</sup> s<sup>−1</sup>) suggest a high stability of the GASP–GPCR complex. The relatively slow association rate constant found in both cases does however not necessarily mean that the association rate is slow under native conditions (i.e. in cells), since the association rate–in contrast to the dissociation rate–depends on the local concentration of the interacting proteins. In agreement with GST-pull down experiments, SPR competition experiments revealed that the GASP motif and the amino-acids SWFW within this motif are strongly involved in formation of GASP-GPCRs complexes. As GASP-1, arrestins can form stable complexes with GPCRs <a href="#pone.0056336-Gurevich1" class="ref-tip">[25]</a>, <a href="#pone.0056336-Oakley1" class="ref-tip">[26]</a>, and have been suggested to play a role in the postendocytic sorting of receptors <a href="#pone.0056336-Whistler1" class="ref-tip">[7]</a>, <a href="#pone.0056336-Lohse1" class="ref-tip">[27]</a>. Interestingly, cell studies have indicated that arrestins can also form transient complexes with GPCRs and that these receptors are rapidly recycled instead of being degraded or slowly recycled <a href="#pone.0056336-Oakley1" class="ref-tip">[26]</a>. Whether GASPs can form transient complexes with some GPCRs remains to be shown.</p>
+<a id="article1.body1.sec3.sec7.p5" name="article1.body1.sec3.sec7.p5" class="link-target"></a><p>In summary, we have shown here that the GASP family is divided into two sub-families based on their interaction with C-tail of GPCRs: subfamily 1 comprises GASP-1 to -5 that strongly interact with receptor C-tails and contain a small repeated motif, the GASP motif, while sub-family 2 includes GASP-6 to -10 that weakly interact with the receptor C-tails and does not contain the GASP motif. We also report here the first molecular characterization of the interaction between GASPs and GPCRs. Our data cleary demonstrate that the GASP motif mediates the interaction of GASPs with G protein-coupled receptors and that a small peptide containing this motif is capable of preventing the interaction of GASPs with receptor C-tails and also full-length GPCRs. This study clearly highlight that we have identified a novel protein-protein interacting motif that is implicated in GPCR interactions and might be a new target for investigation of the role played by GASP in the modulation of the activity of GPCRs in vivo.</p>
+</div>
+</div>
+
+<div id="section4" class="section toc-section"><a id="s4" name="s4" data-toc="s4" class="link-target" title="Supporting Information"></a><h2>Supporting Information</h2><div class="figshare_widget" doi="10.1371/journal.pone.0056336"></div><div class="supplementary-material"><a name="pone.0056336.s001" id="pone.0056336.s001" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0056336.s001">Figure S1. </a></h3><a id="article1.body1.sec4.supplementary-material1.caption1.p1" name="article1.body1.sec4.supplementary-material1.caption1.p1" class="link-target"></a><p class="preSiDOI"><strong>Crosswise comparison of the conserved carboxyl-terminal domain of GASPs.</strong> Red color corresponds to sequence identity between 90% and 100%, orange dark between 75% and 90%, orange light between 45% and 75%, blue dark between 25% and 44% and blue light less than 25%. In addition to <a href="#pone-0056336-g001">figure 1</a>, this table shows that all GASPs display sequence similarities in their carboxyl-terminal tail and reveals very high sequence similarities between GASP-1 and GASP-2 as well as high similarities between GASP-6, -7, -8 and -9.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0056336.s001">https://doi.org/10.1371/journal.pone.0056336.s001</a></p><a id="article1.body1.sec4.supplementary-material1.caption1.p2" name="article1.body1.sec4.supplementary-material1.caption1.p2" class="link-target"></a><p class="postSiDOI">(DOC)</p>
+</div><div class="supplementary-material"><a name="pone.0056336.s002" id="pone.0056336.s002" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0056336.s002">Figure S2. </a></h3><a id="article1.body1.sec4.supplementary-material2.caption1.p1" name="article1.body1.sec4.supplementary-material2.caption1.p1" class="link-target"></a><p class="preSiDOI"><strong>GST-fusions of GPCR C-tails used in GST-Pull down experiments.</strong> Purified proteins were separated by SDS-PAGE and stained with coomassie blue.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0056336.s002">https://doi.org/10.1371/journal.pone.0056336.s002</a></p><a id="article1.body1.sec4.supplementary-material2.caption1.p2" name="article1.body1.sec4.supplementary-material2.caption1.p2" class="link-target"></a><p class="postSiDOI">(DOC)</p>
+</div><div class="supplementary-material"><a name="pone.0056336.s003" id="pone.0056336.s003" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0056336.s003">Figure S3. </a></h3><a id="article1.body1.sec4.supplementary-material3.caption1.p1" name="article1.body1.sec4.supplementary-material3.caption1.p1" class="link-target"></a><p class="preSiDOI"><strong>Purification of the central domain of GASP-1, ADRB2 and CNR2.</strong> Purified proteins were separated by SDS-PAGE and stained with coomassie blue. <em>A</em>. line 1: crude extract, line 2: cleared lysate, line 3: purified central domain of GASP-1. <em>B.</em> line 4: membrane proteins of <em>P. pastoris</em> expressing ADRB2, line 5: solubilized membrane proteins, line 6: purified ADRB2. <em>C.</em> line 7: membrane proteins of <em>P. pastoris</em> expressing CNR2, line 8: solubilized membrane proteins, line 9: purified CNR2. Arrowheads indicated purified proteins.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0056336.s003">https://doi.org/10.1371/journal.pone.0056336.s003</a></p><a id="article1.body1.sec4.supplementary-material3.caption1.p2" name="article1.body1.sec4.supplementary-material3.caption1.p2" class="link-target"></a><p class="postSiDOI">(DOC)</p>
+</div><div class="supplementary-material"><a name="pone.0056336.s004" id="pone.0056336.s004" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0056336.s004">Figure S4. </a></h3><a id="article1.body1.sec4.supplementary-material4.caption1.p1" name="article1.body1.sec4.supplementary-material4.caption1.p1" class="link-target"></a><p class="preSiDOI"><strong>Overlay of GASP–GPCR saturation binding curves with fit curves.</strong> Binding of the central domain of GASP-1 to ADRB2 and CNR2 monitored with SPR. <em>A</em>, <em>C</em>. Overlay of the dissociation phase of the central domain of GASP-1 binding to ADRB2 (A) and CNR2 (C) with fit curves. <em>B</em>, <em>D</em>. Overlay of the full binding curves for the central domain of GASP-1 binding to ADRB2 (B) and CNR2 (D) with fit curves. In addition to the dose-dependant binding of ADRB2 and CNR2 to the central domain of GASP-1, the dissociation phase revealed a stable interaction between the central domain of GASP-1 and the GPCRs.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0056336.s004">https://doi.org/10.1371/journal.pone.0056336.s004</a></p><a id="article1.body1.sec4.supplementary-material4.caption1.p2" name="article1.body1.sec4.supplementary-material4.caption1.p2" class="link-target"></a><p class="postSiDOI">(DOC)</p>
+</div></div>
+
+
+
+
+
+<div class="section toc-section"><a id="ack" name="ack" data-toc="ack" title="Acknowledgments" class="link-target"></a><h2>Acknowledgments</h2>
+<a id="article1.back1.ack1.p1" name="article1.back1.ack1.p1" class="link-target"></a><p>We thank the Institut de Génétique et de Biologie Moléculaire et Cellulaire core facilities for technical assistance.</p>
+</div><div class="contributions toc-section"><a id="authcontrib" name="authcontrib" data-toc="authcontrib" title="Author Contributions"></a><h2>Author Contributions</h2><p>Conceived and designed the experiments: OB TCM JB RW KLM FS. Performed the experiments: OB TCM JB MPC. Analyzed the data: OB TCM JB RW KLM FS. Contributed reagents/materials/analysis tools: KLM FS. Wrote the paper: OB TCM JB RW KLM FS.</p></div><div class="toc-section"><a id="references" name="references" class="link-target" data-toc="references" title="References"></a><h2>References</h2><ol class="references"><li id="ref1"><span class="order">1.
+            </span><a name="pone.0056336-Ferguson1" id="pone.0056336-Ferguson1" class="link-target"></a>Ferguson SS (2001) Evolving concepts in G protein-coupled receptor endocytosis: the role in receptor desensitization and signaling. Pharmacol Rev 53: 1–24. <ul class="reflinks"><li><a href="#" data-author="Ferguson" data-cit="FergusonSS%20%282001%29%20Evolving%20concepts%20in%20G%20protein-coupled%20receptor%20endocytosis%3A%20the%20role%20in%20receptor%20desensitization%20and%20signaling.%20Pharmacol%20Rev%2053%3A%201%E2%80%9324." data-title="Evolving%20concepts%20in%20G%20protein-coupled%20receptor%20endocytosis%3A%20the%20role%20in%20receptor%20desensitization%20and%20signaling" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Evolving+concepts+in+G+protein-coupled+receptor+endocytosis%3A+the+role+in+receptor+desensitization+and+signaling+Ferguson+2001" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref2"><span class="order">2.
+            </span><a name="pone.0056336-Cao1" id="pone.0056336-Cao1" class="link-target"></a>Cao TT, Deacon HW, Reczek D, Bretscher A, von Zastrow M (1999) A kinase-regulated PDZ-domain interaction controls endocytic sorting of the beta2-adrenergic receptor. Nature 401: 286–290. <ul class="reflinks"><li><a href="#" data-author="Cao" data-cit="CaoTT%2C%20DeaconHW%2C%20ReczekD%2C%20BretscherA%2C%20von%20ZastrowM%20%281999%29%20A%20kinase-regulated%20PDZ-domain%20interaction%20controls%20endocytic%20sorting%20of%20the%20beta2-adrenergic%20receptor.%20Nature%20401%3A%20286%E2%80%93290." data-title="A%20kinase-regulated%20PDZ-domain%20interaction%20controls%20endocytic%20sorting%20of%20the%20beta2-adrenergic%20receptor" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=A+kinase-regulated+PDZ-domain+interaction+controls+endocytic+sorting+of+the+beta2-adrenergic+receptor+Cao+1999" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref3"><span class="order">3.
+            </span><a name="pone.0056336-Li1" id="pone.0056336-Li1" class="link-target"></a>Li JG, Chen C, Liu-Chen LY (2002) Ezrin-radixin-moesin-binding phosphoprotein-50/Na+/H+ exchanger regulatory factor (EBP50/NHERF) blocks U50,488H-induced down-regulation of the human kappa opioid receptor by enhancing its recycling rate. J Biol Chem 277: 27545–27552. <ul class="reflinks"><li><a href="#" data-author="Li" data-cit="LiJG%2C%20ChenC%2C%20Liu-ChenLY%20%282002%29%20Ezrin-radixin-moesin-binding%20phosphoprotein-50%2FNa%2B%2FH%2B%20exchanger%20regulatory%20factor%20%28EBP50%2FNHERF%29%20blocks%20U50%2C488H-induced%20down-regulation%20of%20the%20human%20kappa%20opioid%20receptor%20by%20enhancing%20its%20recycling%20rate.%20J%20Biol%20Chem%20277%3A%2027545%E2%80%9327552." data-title="Ezrin-radixin-moesin-binding%20phosphoprotein-50%2FNa%2B%2FH%2B%20exchanger%20regulatory%20factor%20%28EBP50%2FNHERF%29%20blocks%20U50%2C488H-induced%20down-regulation%20of%20the%20human%20kappa%20opioid%20receptor%20by%20enhancing%20its%20recycling%20rate" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Ezrin-radixin-moesin-binding+phosphoprotein-50%2FNa%2B%2FH%2B+exchanger+regulatory+factor+%28EBP50%2FNHERF%29+blocks+U50%2C488H-induced+down-regulation+of+the+human+kappa+opioid+receptor+by+enhancing+its+recycling+rate+Li+2002" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref4"><span class="order">4.
+            </span><a name="pone.0056336-Cong1" id="pone.0056336-Cong1" class="link-target"></a>Cong M, Perry SJ, Hu LA, Hanson PI, Claing A, et al. (2001) Binding of the beta2 adrenergic receptor to N-ethylmaleimide-sensitive factor regulates receptor recycling. J Biol Chem 276: 45145–45152. <ul class="reflinks"><li><a href="#" data-author="Cong" data-cit="CongM%2C%20PerrySJ%2C%20HuLA%2C%20HansonPI%2C%20ClaingA%2C%20et%20al.%20%282001%29%20Binding%20of%20the%20beta2%20adrenergic%20receptor%20to%20N-ethylmaleimide-sensitive%20factor%20regulates%20receptor%20recycling.%20J%20Biol%20Chem%20276%3A%2045145%E2%80%9345152." data-title="Binding%20of%20the%20beta2%20adrenergic%20receptor%20to%20N-ethylmaleimide-sensitive%20factor%20regulates%20receptor%20recycling" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Binding+of+the+beta2+adrenergic+receptor+to+N-ethylmaleimide-sensitive+factor+regulates+receptor+recycling+Cong+2001" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref5"><span class="order">5.
+            </span><a name="pone.0056336-Gullapalli1" id="pone.0056336-Gullapalli1" class="link-target"></a>Gullapalli A, Wolfe BL, Griffin CT, Magnuson T, Trejo J (2006) An essential role for SNX1 in lysosomal sorting of protease-activated receptor-1: evidence for retromer-, Hrs-, and Tsg101-independent functions of sorting nexins. Mol Biol Cell 17: 1228–1238. <ul class="reflinks"><li><a href="#" data-author="Gullapalli" data-cit="GullapalliA%2C%20WolfeBL%2C%20GriffinCT%2C%20MagnusonT%2C%20TrejoJ%20%282006%29%20An%20essential%20role%20for%20SNX1%20in%20lysosomal%20sorting%20of%20protease-activated%20receptor-1%3A%20evidence%20for%20retromer-%2C%20Hrs-%2C%20and%20Tsg101-independent%20functions%20of%20sorting%20nexins.%20Mol%20Biol%20Cell%2017%3A%201228%E2%80%931238." data-title="An%20essential%20role%20for%20SNX1%20in%20lysosomal%20sorting%20of%20protease-activated%20receptor-1%3A%20evidence%20for%20retromer-%2C%20Hrs-%2C%20and%20Tsg101-independent%20functions%20of%20sorting%20nexins" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=An+essential+role+for+SNX1+in+lysosomal+sorting+of+protease-activated+receptor-1%3A+evidence+for+retromer-%2C+Hrs-%2C+and+Tsg101-independent+functions+of+sorting+nexins+Gullapalli+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref6"><span class="order">6.
+            </span><a name="pone.0056336-Simonin1" id="pone.0056336-Simonin1" class="link-target"></a>Simonin F, Karcher P, Boeuf JJ, Matifas A, Kieffer BL (2004) Identification of a novel family of G protein-coupled receptor associated sorting proteins. J Neurochem 89: 766–775. <ul class="reflinks"><li><a href="#" data-author="Simonin" data-cit="SimoninF%2C%20KarcherP%2C%20BoeufJJ%2C%20MatifasA%2C%20KiefferBL%20%282004%29%20Identification%20of%20a%20novel%20family%20of%20G%20protein-coupled%20receptor%20associated%20sorting%20proteins.%20J%20Neurochem%2089%3A%20766%E2%80%93775." data-title="Identification%20of%20a%20novel%20family%20of%20G%20protein-coupled%20receptor%20associated%20sorting%20proteins" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Identification+of+a+novel+family+of+G+protein-coupled+receptor+associated+sorting+proteins+Simonin+2004" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref7"><span class="order">7.
+            </span><a name="pone.0056336-Whistler1" id="pone.0056336-Whistler1" class="link-target"></a>Whistler JL, Enquist J, Marley A, Fong J, Gladher F, et al. (2002) Modulation of postendocytic sorting of G protein-coupled receptors. Science 297: 615–620. <ul class="reflinks"><li><a href="#" data-author="Whistler" data-cit="WhistlerJL%2C%20EnquistJ%2C%20MarleyA%2C%20FongJ%2C%20GladherF%2C%20et%20al.%20%282002%29%20Modulation%20of%20postendocytic%20sorting%20of%20G%20protein-coupled%20receptors.%20Science%20297%3A%20615%E2%80%93620." data-title="Modulation%20of%20postendocytic%20sorting%20of%20G%20protein-coupled%20receptors" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Modulation+of+postendocytic+sorting+of+G+protein-coupled+receptors+Whistler+2002" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref8"><span class="order">8.
+            </span><a name="pone.0056336-TappeTheodor1" id="pone.0056336-TappeTheodor1" class="link-target"></a>Tappe-Theodor A, Agarwal N, Katona I, Rubino T, Martini L, et al. (2007) A molecular basis of analgesic tolerance to cannabinoids. J Neurosci 27: 4165–4177. <ul class="reflinks"><li><a href="#" data-author="Tappe-Theodor" data-cit="Tappe-TheodorA%2C%20AgarwalN%2C%20KatonaI%2C%20RubinoT%2C%20MartiniL%2C%20et%20al.%20%282007%29%20A%20molecular%20basis%20of%20analgesic%20tolerance%20to%20cannabinoids.%20J%20Neurosci%2027%3A%204165%E2%80%934177." data-title="A%20molecular%20basis%20of%20analgesic%20tolerance%20to%20cannabinoids" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=A+molecular+basis+of+analgesic+tolerance+to+cannabinoids+Tappe-Theodor+2007" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref9"><span class="order">9.
+            </span><a name="pone.0056336-Martini1" id="pone.0056336-Martini1" class="link-target"></a>Martini L, Thompson D, Kharazia V, Whistler JL (2010) Differential regulation of behavioral tolerance to WIN55,212–2 by GASP1. Neuropsychopharmacology 35: 1363–1373. <ul class="reflinks"><li><a href="#" data-author="Martini" data-cit="MartiniL%2C%20ThompsonD%2C%20KharaziaV%2C%20WhistlerJL%20%282010%29%20Differential%20regulation%20of%20behavioral%20tolerance%20to%20WIN55%2C212%E2%80%932%20by%20GASP1.%20Neuropsychopharmacology%2035%3A%201363%E2%80%931373." data-title="Differential%20regulation%20of%20behavioral%20tolerance%20to%20WIN55%2C212%E2%80%932%20by%20GASP1" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Differential+regulation+of+behavioral+tolerance+to+WIN55%2C212%E2%80%932+by+GASP1+Martini+2010" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref10"><span class="order">10.
+            </span><a name="pone.0056336-Heydorn1" id="pone.0056336-Heydorn1" class="link-target"></a>Heydorn A, Sondergaard BP, Ersboll B, Holst B, Nielsen FC, et al. (2004) A library of 7TM receptor C-terminal tails. Interactions with the proposed post-endocytic sorting proteins ERM-binding phosphoprotein 50 (EBP50), N-ethylmaleimide-sensitive factor (NSF), sorting nexin 1 (SNX1), and G protein-coupled receptor-associated sorting protein (GASP). J Biol Chem 279: 54291–54303. <ul class="reflinks"><li><a href="#" data-author="Heydorn" data-cit="HeydornA%2C%20SondergaardBP%2C%20ErsbollB%2C%20HolstB%2C%20NielsenFC%2C%20et%20al.%20%282004%29%20A%20library%20of%207TM%20receptor%20C-terminal%20tails.%20Interactions%20with%20the%20proposed%20post-endocytic%20sorting%20proteins%20ERM-binding%20phosphoprotein%2050%20%28EBP50%29%2C%20N-ethylmaleimide-sensitive%20factor%20%28NSF%29%2C%20sorting%20nexin%201%20%28SNX1%29%2C%20and%20G%20protein-coupled%20receptor-associated%20sorting%20protein%20%28GASP%29.%20J%20Biol%20Chem%20279%3A%2054291%E2%80%9354303." data-title="A%20library%20of%207TM%20receptor%20C-terminal%20tails.%20Interactions%20with%20the%20proposed%20post-endocytic%20sorting%20proteins%20ERM-binding%20phosphoprotein%2050%20%28EBP50%29%2C%20N-ethylmaleimide-sensitive%20factor%20%28NSF%29%2C%20sorting%20nexin%201%20%28SNX1%29%2C%20and%20G%20protein-coupled%20receptor-associated%20sorting%20protein%20%28GASP%29" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=A+library+of+7TM+receptor+C-terminal+tails.+Interactions+with+the+proposed+post-endocytic+sorting+proteins+ERM-binding+phosphoprotein+50+%28EBP50%29%2C+N-ethylmaleimide-sensitive+factor+%28NSF%29%2C+sorting+nexin+1+%28SNX1%29%2C+and+G+protein-coupled+receptor-associated+sorting+protein+%28GASP%29+Heydorn+2004" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref11"><span class="order">11.
+            </span><a name="pone.0056336-Bartlett1" id="pone.0056336-Bartlett1" class="link-target"></a>Bartlett SE, Enquist J, Hopf FW, Lee JH, Gladher F, et al. (2005) Dopamine responsiveness is regulated by targeted sorting of D2 receptors. Proc Natl Acad Sci U S A 102: 11521–11526. <ul class="reflinks"><li><a href="#" data-author="Bartlett" data-cit="BartlettSE%2C%20EnquistJ%2C%20HopfFW%2C%20LeeJH%2C%20GladherF%2C%20et%20al.%20%282005%29%20Dopamine%20responsiveness%20is%20regulated%20by%20targeted%20sorting%20of%20D2%20receptors.%20Proc%20Natl%20Acad%20Sci%20U%20S%20A%20102%3A%2011521%E2%80%9311526." data-title="Dopamine%20responsiveness%20is%20regulated%20by%20targeted%20sorting%20of%20D2%20receptors" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Dopamine+responsiveness+is+regulated+by+targeted+sorting+of+D2+receptors+Bartlett+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref12"><span class="order">12.
+            </span><a name="pone.0056336-Boeuf1" id="pone.0056336-Boeuf1" class="link-target"></a>Boeuf J, Trigo JM, Moreau PH, Lecourtier L, Vogel E, et al. (2009) Attenuated behavioural responses to acute and chronic cocaine in GASP-1-deficient mice. Eur J Neurosci 30: 860–868. <ul class="reflinks"><li><a href="#" data-author="Boeuf" data-cit="BoeufJ%2C%20TrigoJM%2C%20MoreauPH%2C%20LecourtierL%2C%20VogelE%2C%20et%20al.%20%282009%29%20Attenuated%20behavioural%20responses%20to%20acute%20and%20chronic%20cocaine%20in%20GASP-1-deficient%20mice.%20Eur%20J%20Neurosci%2030%3A%20860%E2%80%93868." data-title="Attenuated%20behavioural%20responses%20to%20acute%20and%20chronic%20cocaine%20in%20GASP-1-deficient%20mice" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Attenuated+behavioural+responses+to+acute+and+chronic+cocaine+in+GASP-1-deficient+mice+Boeuf+2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref13"><span class="order">13.
+            </span><a name="pone.0056336-AbuHelo1" id="pone.0056336-AbuHelo1" class="link-target"></a>Abu-Helo A, Simonin F (2010) Identification and biological significance of G protein-coupled receptor Associated Sorting Proteins (GASP). Pharmacology &amp; Therapeutics 126: 244–250. <ul class="reflinks"><li><a href="#" data-author="Abu-Helo" data-cit="Abu-HeloA%2C%20SimoninF%20%282010%29%20Identification%20and%20biological%20significance%20of%20G%20protein-coupled%20receptor%20Associated%20Sorting%20Proteins%20%28GASP%29.%20Pharmacology%20%26%20Therapeutics%20126%3A%20244%E2%80%93250." data-title="Identification%20and%20biological%20significance%20of%20G%20protein-coupled%20receptor%20Associated%20Sorting%20Proteins%20%28GASP%29" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Identification+and+biological+significance+of+G+protein-coupled+receptor+Associated+Sorting+Proteins+%28GASP%29+Abu-Helo+2010" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref14"><span class="order">14.
+            </span><a name="pone.0056336-Winter1" id="pone.0056336-Winter1" class="link-target"></a>Winter EE, Ponting CP (2005) Mammalian BEX, WEX and GASP genes: coding and non-coding chimaerism sustained by gene conversion events. BMC Evol Biol 5: 54. <ul class="reflinks"><li><a href="#" data-author="Winter" data-cit="WinterEE%2C%20PontingCP%20%282005%29%20Mammalian%20BEX%2C%20WEX%20and%20GASP%20genes%3A%20coding%20and%20non-coding%20chimaerism%20sustained%20by%20gene%20conversion%20events.%20BMC%20Evol%20Biol%205%3A%2054." data-title="Mammalian%20BEX%2C%20WEX%20and%20GASP%20genes%3A%20coding%20and%20non-coding%20chimaerism%20sustained%20by%20gene%20conversion%20events" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Mammalian+BEX%2C+WEX+and+GASP+genes%3A+coding+and+non-coding+chimaerism+sustained+by+gene+conversion+events+Winter+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref15"><span class="order">15.
+            </span><a name="pone.0056336-Andre1" id="pone.0056336-Andre1" class="link-target"></a>Andre N, Cherouati N, Prual C, Steffan T, Zeder-Lutz G, et al. (2006) Enhancing functional production of G protein-coupled receptors in Pichia pastoris to levels required for structural studies via a single expression screen. Protein Sci 15: 1115–1126. <ul class="reflinks"><li><a href="#" data-author="Andre" data-cit="AndreN%2C%20CherouatiN%2C%20PrualC%2C%20SteffanT%2C%20Zeder-LutzG%2C%20et%20al.%20%282006%29%20Enhancing%20functional%20production%20of%20G%20protein-coupled%20receptors%20in%20Pichia%20pastoris%20to%20levels%20required%20for%20structural%20studies%20via%20a%20single%20expression%20screen.%20Protein%20Sci%2015%3A%201115%E2%80%931126." data-title="Enhancing%20functional%20production%20of%20G%20protein-coupled%20receptors%20in%20Pichia%20pastoris%20to%20levels%20required%20for%20structural%20studies%20via%20a%20single%20expression%20screen" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Enhancing+functional+production+of+G+protein-coupled+receptors+in+Pichia+pastoris+to+levels+required+for+structural+studies+via+a+single+expression+screen+Andre+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref16"><span class="order">16.
+            </span><a name="pone.0056336-Bornert1" id="pone.0056336-Bornert1" class="link-target"></a>Bornert O, Alkhalfioui F, Logez C, Wagner R (2012) Overexpression of membrane proteins using Pichia pastoris. Curr Protoc Protein Sci Chapter 29: Unit 29.22. <ul class="find-nolinks"></ul></li><li id="ref17"><span class="order">17.
+            </span><a name="pone.0056336-Stenberg1" id="pone.0056336-Stenberg1" class="link-target"></a>Stenberg E, Persson B, Roos H, Urbaniczky C (1991) quantitative-determination of surface concentration of proteins with surface-plasmon resonance using radiolabeled proteins. J Colloid Interface Sci 143: 513–526. <ul class="reflinks"><li><a href="#" data-author="Stenberg" data-cit="StenbergE%2C%20PerssonB%2C%20RoosH%2C%20UrbaniczkyC%20%281991%29%20quantitative-determination%20of%20surface%20concentration%20of%20proteins%20with%20surface-plasmon%20resonance%20using%20radiolabeled%20proteins.%20J%20Colloid%20Interface%20Sci%20143%3A%20513%E2%80%93526." data-title="quantitative-determination%20of%20surface%20concentration%20of%20proteins%20with%20surface-plasmon%20resonance%20using%20radiolabeled%20proteins" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=quantitative-determination+of+surface+concentration+of+proteins+with+surface-plasmon+resonance+using+radiolabeled+proteins+Stenberg+1991" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref18"><span class="order">18.
+            </span><a name="pone.0056336-Myszka1" id="pone.0056336-Myszka1" class="link-target"></a>Myszka DG (1999) Improving biosensor analysis. J Mol Recognit 12: 279–284. <ul class="reflinks"><li><a href="#" data-author="Myszka" data-cit="MyszkaDG%20%281999%29%20Improving%20biosensor%20analysis.%20J%20Mol%20Recognit%2012%3A%20279%E2%80%93284." data-title="Improving%20biosensor%20analysis" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Improving+biosensor+analysis+Myszka+1999" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref19"><span class="order">19.
+            </span><a name="pone.0056336-Zacharias1" id="pone.0056336-Zacharias1" class="link-target"></a>Zacharias DA, Violin JD, Newton AC, Tsien RY (2002) Partitioning of lipid-modified monomeric GFPs into membrane microdomains of live cells. Science 296: 913–916. <ul class="reflinks"><li><a href="#" data-author="Zacharias" data-cit="ZachariasDA%2C%20ViolinJD%2C%20NewtonAC%2C%20TsienRY%20%282002%29%20Partitioning%20of%20lipid-modified%20monomeric%20GFPs%20into%20membrane%20microdomains%20of%20live%20cells.%20Science%20296%3A%20913%E2%80%93916." data-title="Partitioning%20of%20lipid-modified%20monomeric%20GFPs%20into%20membrane%20microdomains%20of%20live%20cells" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Partitioning+of+lipid-modified+monomeric+GFPs+into+membrane+microdomains+of+live+cells+Zacharias+2002" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref20"><span class="order">20.
+            </span><a name="pone.0056336-Fruh1" id="pone.0056336-Fruh1" class="link-target"></a>Fruh V, AP IJ, Siegal G (2011) How to catch a membrane protein in action: a review of functional membrane protein immobilization strategies and their applications. Chem Rev 111: 640–656. <ul class="reflinks"><li><a href="#" data-author="Fruh" data-cit="FruhV%2C%20APIJ%2C%20SiegalG%20%282011%29%20How%20to%20catch%20a%20membrane%20protein%20in%20action%3A%20a%20review%20of%20functional%20membrane%20protein%20immobilization%20strategies%20and%20their%20applications.%20Chem%20Rev%20111%3A%20640%E2%80%93656." data-title="How%20to%20catch%20a%20membrane%20protein%20in%20action%3A%20a%20review%20of%20functional%20membrane%20protein%20immobilization%20strategies%20and%20their%20applications" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=How+to+catch+a+membrane+protein+in+action%3A+a+review+of+functional+membrane+protein+immobilization+strategies+and+their+applications+Fruh+2011" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref21"><span class="order">21.
+            </span><a name="pone.0056336-Alves1" id="pone.0056336-Alves1" class="link-target"></a>Alves ID, Ciano KA, Boguslavski V, Varga E, Salamon Z, et al. (2004) Selectivity, cooperativity, and reciprocity in the interactions between the delta-opioid receptor, its ligands, and G-proteins. J Biol Chem 279: 44673–44682. <ul class="reflinks"><li><a href="#" data-author="Alves" data-cit="AlvesID%2C%20CianoKA%2C%20BoguslavskiV%2C%20VargaE%2C%20SalamonZ%2C%20et%20al.%20%282004%29%20Selectivity%2C%20cooperativity%2C%20and%20reciprocity%20in%20the%20interactions%20between%20the%20delta-opioid%20receptor%2C%20its%20ligands%2C%20and%20G-proteins.%20J%20Biol%20Chem%20279%3A%2044673%E2%80%9344682." data-title="Selectivity%2C%20cooperativity%2C%20and%20reciprocity%20in%20the%20interactions%20between%20the%20delta-opioid%20receptor%2C%20its%20ligands%2C%20and%20G-proteins" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Selectivity%2C+cooperativity%2C+and+reciprocity+in+the+interactions+between+the+delta-opioid+receptor%2C+its+ligands%2C+and+G-proteins+Alves+2004" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref22"><span class="order">22.
+            </span><a name="pone.0056336-Alves2" id="pone.0056336-Alves2" class="link-target"></a>Alves ID, Salamon Z, Varga E, Yamamura HI, Tollin G, et al. (2003) Direct observation of G-protein binding to the human delta-opioid receptor using plasmon-waveguide resonance spectroscopy. J Biol Chem 278: 48890–48897. <ul class="reflinks"><li><a href="#" data-author="Alves" data-cit="AlvesID%2C%20SalamonZ%2C%20VargaE%2C%20YamamuraHI%2C%20TollinG%2C%20et%20al.%20%282003%29%20Direct%20observation%20of%20G-protein%20binding%20to%20the%20human%20delta-opioid%20receptor%20using%20plasmon-waveguide%20resonance%20spectroscopy.%20J%20Biol%20Chem%20278%3A%2048890%E2%80%9348897." data-title="Direct%20observation%20of%20G-protein%20binding%20to%20the%20human%20delta-opioid%20receptor%20using%20plasmon-waveguide%20resonance%20spectroscopy" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Direct+observation+of+G-protein+binding+to+the+human+delta-opioid+receptor+using+plasmon-waveguide+resonance+spectroscopy+Alves+2003" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref23"><span class="order">23.
+            </span><a name="pone.0056336-Georgieva1" id="pone.0056336-Georgieva1" class="link-target"></a>Georgieva T, Devanathan S, Stropova D, Park CK, Salamon Z, et al. (2008) Unique agonist-bound cannabinoid CB1 receptor conformations indicate agonist specificity in signaling. Eur J Pharmacol 581: 19–29. <ul class="reflinks"><li><a href="#" data-author="Georgieva" data-cit="GeorgievaT%2C%20DevanathanS%2C%20StropovaD%2C%20ParkCK%2C%20SalamonZ%2C%20et%20al.%20%282008%29%20Unique%20agonist-bound%20cannabinoid%20CB1%20receptor%20conformations%20indicate%20agonist%20specificity%20in%20signaling.%20Eur%20J%20Pharmacol%20581%3A%2019%E2%80%9329." data-title="Unique%20agonist-bound%20cannabinoid%20CB1%20receptor%20conformations%20indicate%20agonist%20specificity%20in%20signaling" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Unique+agonist-bound+cannabinoid+CB1+receptor+conformations+indicate+agonist+specificity+in+signaling+Georgieva+2008" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref24"><span class="order">24.
+            </span><a name="pone.0056336-Komolov1" id="pone.0056336-Komolov1" class="link-target"></a>Komolov KE, Aguila M, Toledo D, Manyosa J, Garriga P, et al. (2010) On-chip photoactivation of heterologously expressed rhodopsin allows kinetic analysis of G-protein signaling by surface plasmon resonance spectroscopy. Anal Bioanal Chem 397: 2967–2976. <ul class="reflinks"><li><a href="#" data-author="Komolov" data-cit="KomolovKE%2C%20AguilaM%2C%20ToledoD%2C%20ManyosaJ%2C%20GarrigaP%2C%20et%20al.%20%282010%29%20On-chip%20photoactivation%20of%20heterologously%20expressed%20rhodopsin%20allows%20kinetic%20analysis%20of%20G-protein%20signaling%20by%20surface%20plasmon%20resonance%20spectroscopy.%20Anal%20Bioanal%20Chem%20397%3A%202967%E2%80%932976." data-title="On-chip%20photoactivation%20of%20heterologously%20expressed%20rhodopsin%20allows%20kinetic%20analysis%20of%20G-protein%20signaling%20by%20surface%20plasmon%20resonance%20spectroscopy" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=On-chip+photoactivation+of+heterologously+expressed+rhodopsin+allows+kinetic+analysis+of+G-protein+signaling+by+surface+plasmon+resonance+spectroscopy+Komolov+2010" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref25"><span class="order">25.
+            </span><a name="pone.0056336-Gurevich1" id="pone.0056336-Gurevich1" class="link-target"></a>Gurevich VV, Dion SB, Onorato JJ, Ptasienski J, Kim CM, et al. (1995) Arrestin interactions with G protein-coupled receptors. Direct binding studies of wild type and mutant arrestins with rhodopsin, beta 2-adrenergic, and m2 muscarinic cholinergic receptors. J Biol Chem 270: 720–731. <ul class="reflinks"><li><a href="#" data-author="Gurevich" data-cit="GurevichVV%2C%20DionSB%2C%20OnoratoJJ%2C%20PtasienskiJ%2C%20KimCM%2C%20et%20al.%20%281995%29%20Arrestin%20interactions%20with%20G%20protein-coupled%20receptors.%20Direct%20binding%20studies%20of%20wild%20type%20and%20mutant%20arrestins%20with%20rhodopsin%2C%20beta%202-adrenergic%2C%20and%20m2%20muscarinic%20cholinergic%20receptors.%20J%20Biol%20Chem%20270%3A%20720%E2%80%93731." data-title="Arrestin%20interactions%20with%20G%20protein-coupled%20receptors.%20Direct%20binding%20studies%20of%20wild%20type%20and%20mutant%20arrestins%20with%20rhodopsin%2C%20beta%202-adrenergic%2C%20and%20m2%20muscarinic%20cholinergic%20receptors" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Arrestin+interactions+with+G+protein-coupled+receptors.+Direct+binding+studies+of+wild+type+and+mutant+arrestins+with+rhodopsin%2C+beta+2-adrenergic%2C+and+m2+muscarinic+cholinergic+receptors+Gurevich+1995" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref26"><span class="order">26.
+            </span><a name="pone.0056336-Oakley1" id="pone.0056336-Oakley1" class="link-target"></a>Oakley RH, Laporte SA, Holt JA, Caron MG, Barak LS (2000) Differential affinities of visual arrestin, barrestin1 and barrestin2 for G protein-coupled receptors delineate two major classes of receptors. JBC 275: 17201–17210. <ul class="reflinks"><li><a href="#" data-author="Oakley" data-cit="OakleyRH%2C%20LaporteSA%2C%20HoltJA%2C%20CaronMG%2C%20BarakLS%20%282000%29%20Differential%20affinities%20of%20visual%20arrestin%2C%20barrestin1%20and%20barrestin2%20for%20G%20protein-coupled%20receptors%20delineate%20two%20major%20classes%20of%20receptors.%20JBC%20275%3A%2017201%E2%80%9317210." data-title="Differential%20affinities%20of%20visual%20arrestin%2C%20barrestin1%20and%20barrestin2%20for%20G%20protein-coupled%20receptors%20delineate%20two%20major%20classes%20of%20receptors" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Differential+affinities+of+visual+arrestin%2C+barrestin1+and+barrestin2+for+G+protein-coupled+receptors+delineate+two+major+classes+of+receptors+Oakley+2000" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref27"><span class="order">27.
+            </span><a name="pone.0056336-Lohse1" id="pone.0056336-Lohse1" class="link-target"></a>Lohse MJ, Benovic JL, Codina J, Caron MG, Lefkowitz RJ (1990) beta-Arrestin: a protein that regulates beta-adrenergic receptor function. Science 248: 1547–1550. <ul class="reflinks"><li><a href="#" data-author="Lohse" data-cit="LohseMJ%2C%20BenovicJL%2C%20CodinaJ%2C%20CaronMG%2C%20LefkowitzRJ%20%281990%29%20beta-Arrestin%3A%20a%20protein%20that%20regulates%20beta-adrenergic%20receptor%20function.%20Science%20248%3A%201547%E2%80%931550." data-title="beta-Arrestin%3A%20a%20protein%20that%20regulates%20beta-adrenergic%20receptor%20function" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=beta-Arrestin%3A+a+protein+that+regulates+beta-adrenergic+receptor+function+Lohse+1990" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li></ol></div>
+
+
+
+          <div class="ref-tooltip">
+            <div class="ref_tooltip-content">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <aside class="article-aside">
+
+
+<!--[if IE 9]>
+<style>
+.dload-xml {margin-top: 38px}
+</style>
+<![endif]-->
+<div class="dload-menu">
+  <div class="dload-pdf">
+    <a href="/plosone/article/file?id=10.1371/journal.pone.0056336&type=printable"
+       id="downloadPdf" target="_blank">Download PDF</a>
+  </div>
+  <div data-js-tooltip-hover="trigger" class="dload-hover">&nbsp;
+    <ul class="dload-xml" data-js-tooltip-hover="target">
+      <li><a href="/plosone/article/citation?id=10.1371/journal.pone.0056336"
+             id="downloadCitation">Citation</a></li>
+      <li><a href="/plosone/article/file?id=10.1371/journal.pone.0056336&type=manuscript"
+             id="downloadXml">XML</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="aside-container">
+
+<div class="print-article" id="printArticle" data-js-tooltip-hover="trigger">
+
+  Print
+  <ul class="print-options" data-js-tooltip-hover="target">
+    <li>
+        <a href="#" onclick="window.print(); return false;" class="preventDefault" id="printBrowser" title="Print
+        Article">Print article</a>
+    </li>
+
+
+
+
+<li>
+<a title="Odyssey Press" href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&amp;page=0&amp;journal=7&amp;doi=10.1371%2Fjournal.pone.0056336&amp;volume=&amp;issue=&amp;title=Identification%20of%20a%20Novel%20Protein-Protein%20Interaction%20Motif%20Mediating%20Interaction%20of%20GPCR-Associated%20Sorting%20Proteins%20with%20G%20Protein-Coupled%20Receptors&amp;author_name=Olivier%20Bornert%2C%20Thor%20C.%20M%C3%B8ller%2C%20Julien%20Boeuf%2C%20Marie-Pierre%20Candusso%2C%20Renaud%20Wagner%2C%20Karen%20L.%20Martinez%2C%20Frederic%20Simonin&amp;start_page=1&amp;end_page=11">EzReprint  </a>
+</li>
+
+  </ul>
+</div>
+<div class="share-article" id="shareArticle" data-js-tooltip-hover="trigger">
+  Share
+  <ul data-js-tooltip-hover="target" class="share-options" id="share-options">
+
+<li><a href="https://www.reddit.com/submit?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0056336" id="shareReddit" target="_blank" title="Submit to Reddit"><img src="/plosone/resource/img/icon.reddit.16.png" width="16" height="16" alt="Reddit">Reddit</a></li>
+
+<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0056336" id="shareGoogle" target="_blank" title="Share on Google+"><img src="/plosone/resource/img/icon.gplus.16.png" width="16" height="16" alt="Google+">Google+</a></li>
+
+<li><a href="https://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0056336&t=Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors" id="shareFacebook" target="_blank" title="Share on Facebook"><img src="/plosone/resource/img/icon.fb.16.png" width="16" height="16" alt="Facebook">Facebook</a></li>
+
+<li><a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0056336&title=Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors&summary=Checkout this article I found at PLOS"  id="shareLinkedIn" target="_blank" title="Add to LinkedIn"><img src="/plosone/resource/img/icon.linkedin.16.png" width="16" height="16" alt="LinkedIn">LinkedIn</a></li>
+
+<li><a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0056336&title=Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors"  id="shareCiteULike" target="_blank" title="Add to CiteULike"><img src="/plosone/resource/img/icon.cul.16.png" width="16" height="16" alt="CiteULike">CiteULike</a></li>
+
+<li><a href="https://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0056336"  id="shareMendeley" target="_blank" title="Add to Mendeley"><img src="/plosone/resource/img/icon.mendeley.16.png" width="16" height="16" alt="Mendeley">Mendeley</a></li>
+
+<li><a href="https://www.pubchase.com/library?add_aid=10.1371/journal.pone.0056336&source=plos"  id="sharePubChase" target="_blank" title="Add to PubChase"><img src="/plosone/resource/img/icon.pc.16.png" width="16" height="16" alt="PubChase">PubChase</a></li>
+
+  <li><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0056336&text=%23PLOSONE%3A%20Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors" target="_blank" title="share on Twitter" id="twitter-share-link"><img src="/plosone/resource/img/icon.twtr.16.png" width="16" height="16" alt="Twitter">Twitter</a></li>
+
+<li><a href="/plosone/article/email?id=10.1371/journal.pone.0056336" id="shareEmail" title="Email this article"><img src="/plosone/resource/img/icon.email.16.png" width="16" height="16" alt="Email">Email</a></li>
+
+  </ul>
+</div></div>
+
+
+ <!-- Crossmark 2.0 widget -->
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+<a data-target="crossmark"><img width="150" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_horizontal.svg"></a>
+<!-- End Crossmark 2.0 widget -->
+
+
+
+
+
+
+
+<div class="skyscraper-container">
+  <div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-1' style='width:160px; height:600px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-1'); });
+    </script>
+  </div>
+</div>
+
+
+
+
+<div class="subject-areas-container">
+  <h3>Subject Areas <div id="subjInfo">?</div>
+    <div id="subjInfoText">
+      <p>For more information about PLOS Subject Areas, click
+        <a href="https://github.com/PLOS/plos-thesaurus/blob/develop/README.md" target="_blank" title="Link opens in new window">here</a>.</p>
+      <span class="inline-intro">We want your feedback.</span> Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!
+
+
+    </div>
+  </h3>
+  <ul id="subjectList">
+      <li>
+              <a class="taxo-term" title="Search for articles about G protein coupled receptors"
+                 href="/plosone/search?filterSubjects=G+protein+coupled+receptors&filterJournals=PLoSONE&q=">G protein coupled receptors</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="G protein coupled receptors"><p class="taxo-explain">Is the Subject Area <strong>"G protein coupled receptors"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Sequence motif analysis"
+                 href="/plosone/search?filterSubjects=Sequence+motif+analysis&filterJournals=PLoSONE&q=">Sequence motif analysis</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Sequence motif analysis"><p class="taxo-explain">Is the Subject Area <strong>"Sequence motif analysis"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Muscarinic acetylcholine receptors"
+                 href="/plosone/search?filterSubjects=Muscarinic+acetylcholine+receptors&filterJournals=PLoSONE&q=">Muscarinic acetylcholine receptors</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Muscarinic acetylcholine receptors"><p class="taxo-explain">Is the Subject Area <strong>"Muscarinic acetylcholine receptors"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Protein interactions"
+                 href="/plosone/search?filterSubjects=Protein+interactions&filterJournals=PLoSONE&q=">Protein interactions</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Protein interactions"><p class="taxo-explain">Is the Subject Area <strong>"Protein interactions"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Health care"
+                 href="/plosone/search?filterSubjects=Health+care&filterJournals=PLoSONE&q=">Health care</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Health care"><p class="taxo-explain">Is the Subject Area <strong>"Health care"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Chemical dissociation"
+                 href="/plosone/search?filterSubjects=Chemical+dissociation&filterJournals=PLoSONE&q=">Chemical dissociation</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Chemical dissociation"><p class="taxo-explain">Is the Subject Area <strong>"Chemical dissociation"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Amperometry"
+                 href="/plosone/search?filterSubjects=Amperometry&filterJournals=PLoSONE&q=">Amperometry</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Amperometry"><p class="taxo-explain">Is the Subject Area <strong>"Amperometry"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Synthetic peptides"
+                 href="/plosone/search?filterSubjects=Synthetic+peptides&filterJournals=PLoSONE&q=">Synthetic peptides</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Synthetic peptides"><p class="taxo-explain">Is the Subject Area <strong>"Synthetic peptides"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+  </ul>
+</div>
+<div id="subjectErrors"></div>
+
+
+<div class="twitter-container">
+  <h3>Archived Tweets</h3>
+  <ul id="tweetList">
+
+  </ul>
+  <div class="load-more">Load more <span></span></div>
+  <div class="view-all"><a href="https://alm.plos.org/works/doi.org/10.1371/journal.pone.0056336?source_id=twitter">View all tweets</a>
+  </div>
+</div>
+
+<script type="text/template" id="twitterModuleItemTemplate">
+  <% _.each(items, function(item) { %>
+    <li>
+      <div class="tweet-info">
+        <a href="https://twitter.com/<%= item.user %>">
+          <span class="imgholder">
+            <img class="imgLoad" src="<%= item.user_profile_image %>">
+          </span>
+          <div class="tweetDate"><%= item.created_at %></div>
+          <div class="tweetUser">
+            <strong><%= item.user_name %></strong>
+            <span>@<%= item.user %></span>
+          </div>
+        </a>
+      </div>
+      <div class="tweetText">
+        <%= item.text %>
+      </div>
+      <div id="tweetActions">
+        <a class="tweet-reply" href="https://twitter.com/intent/tweet?in_reply_to<%= item.id %>&amp;text=@<%= item.user %>">
+          <div>&nbsp;</div> Reply
+        </a>
+        <a class="tweet-retweet" href="https://twitter.com/intent/retweet?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Retweet
+        </a>
+        <a class="tweet-favorite" href="https://twitter.com/intent/favorite?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Favorite
+        </a>
+      </div>
+    </li>
+  <% }); %>
+</script>
+
+
+  </aside>
+</div>
+
+
+
+
+</main>
+
+<footer id="pageftr">
+  <div class="row">
+  
+
+     <div class="block x-small">   
+      
+
+<ul class="nav nav-secondary">
+    <li class="ftr-header"><a href="https://www.plos.org/publications/journals/">Publications</a></li>
+    <li><a href="/plosbiology/" id="ftr-bio">PLOS Biology</a></li>
+    <li><a href="/plosmedicine/" id="ftr-med">PLOS Medicine</a></li>
+    <li><a href="/ploscompbiol/" id="ftr-compbio">PLOS Computational Biology</a></li>
+    <li><a href="/plosgenetics/" id="ftr-gen">PLOS Genetics</a></li>
+    <li><a href="/plospathogens/" id="ftr-path">PLOS Pathogens</a></li>
+    <li><a href="/plosone/" id="ftr-one">PLOS ONE</a></li>
+    <li><a href="/plosntds/" id="ftr-ntds">PLOS Neglected Tropical Diseases</a></li>
+  </ul>
+  </div>
+   
+    <div class="block xx-small">	
+
+
+<ul class="nav nav-tertiary">
+  <li>
+    <a href="https://www.plos.org" id="ftr-home">Home</a>
+  </li>
+  <li>
+    <a href="https://blogs.plos.org" id="ftr-blog">Blogs</a>
+  </li>
+  <li>
+    <a href="https://collections.plos.org" id="ftr-collections">Collections</a>
+  </li>
+  <li>
+    <a href="/plosone/feedback" id="ftr-feedback">Give feedback</a>
+  </li>
+  <li>
+    <a href="/plosone/lockss-manifest" id="ftr-lockss">LOCKSS</a>
+  </li>
+</ul>
+    </div>
+    <div class="block xx-small">
+
+<ul class="nav nav-primary">
+  <li><a href="https://www.plos.org/privacy-policy" id="ftr-privacy">Privacy Policy</a></li>
+  <li><a href="https://www.plos.org/terms-of-use" id="ftr-terms">Terms of Use</a></li>
+  <li><a href="https://www.plos.org/advertise/" id="ftr-advertise">Advertise</a></li>
+  <li><a href="https://www.plos.org/media-inquiries" id="ftr-media">Media Inquiries</a></li>
+  <li><a href="https://www.plos.org/contact" id="ftr-contact">Contact</a></li>
+</ul>
+     </div>
+     <div class="block x-small">
+
+
+<p class="footer-non-profit-statement">PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in San Francisco, California, US</p>	 		 <img src="/plosone/resource/img/logo-plos-footer.png" alt="PLOS" class="logo-footer"/>
+    </div>
+	 
+
+
+&nbsp;
+<!--
+  Webapp build:  3.7.8 at 20190503150719 by teamcity, commit: 
+  Service build: 2.5.2 at 20190506160336 by teamcity, commit: 
+  Enabled dev features: []
+  -->
+     
+  </div>
+ 
+
+
+</footer>
+
+
+
+
+<script type="text/javascript">
+  var ArticleData = {
+    doi: '10.1371/journal.pone.0056336',
+    title: '<article-title xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Identification of a Novel Protein-Protein Interaction Motif Mediating Interaction of GPCR-Associated Sorting Proteins with G Protein-Coupled Receptors<\/article-title>',
+    date: 'Feb 18, 2013'
+  };
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "https://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "https://alm.plos.org/api/v5/articles";
+</script>
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "https://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "https://alm.plos.org/api/v5/articles";
+</script>
+
+
+
+
+
+
+<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+
+
+
+
+
+<!-- This file should be loaded before the renderJs, to avoid conflicts with the FigShare, that implements the MathJax also. -->
+
+<!--  mathjax configuration options  -->
+<!-- more can be found at http://docs.mathjax.org/en/latest/ -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  "HTML-CSS": {
+    scale: 100,
+    availableFonts: ["STIX","TeX"],
+    preferredFont: "STIX",
+    webFont: "STIX-Web",
+    linebreaks: { automatic: false }
+  },
+  jax: ["input/MathML", "output/HTML-CSS"]
+});
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+
+<script src="/plosone/resource/compiled/asset_4GTWTU3NT6K5SKRGQAMOYA77BVM7OPDS.js"></script>
+<script src="js/index.js"></script>
+<div class="reveal-modal-bg"></div>
+</body>
+</html>
