@@ -1,5 +1,5 @@
 # SciDefine
-Google extension to identify &amp; define scientific abbreviations. Created for TOHacks 2019.
+Chrome extension to identify &amp; define scientific abbreviations. Created for TOHacks 2019.
 
 **Inspiration**
 We both read papers in biology/medicine for our coursework and still find it difficult to read the heavy jargon without a lot of time and effort. It made us think about how people without a science background would be even more isolated from these essential discoveries. Through progress in implementing tools like these, we believe that cutting-edge scientific research could benefit members of society more directly and immediately than ever before, helping us all move past pressing issues such as climate change and the anti-vaccination movement.
@@ -20,4 +20,4 @@ This was our first hack-a-thon and despite not having much of a coding backgroun
 We've both taken theory-based classes in CS before, but we learned over the course of this event that applying your skills towards real projects is a different and very rewarding experience.
 
 **What's next for SciDefine**
-We will try to include one-sentence summaries of each term (sourced from Wikipedia or a similar database) in the tooltips. We are also planning to refine the Java implementation of the algorithm to prevent erroneous results.
+We will include one-sentence summaries of each term (sourced from Wikipedia or a similar database) in the tooltips. We are also planning to refine the Java implementation of the algorithm to prevent erroneous results.
